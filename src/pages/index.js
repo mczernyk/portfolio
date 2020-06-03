@@ -4,8 +4,8 @@ import '../../public/styles.css';
 
 
 const IndexPage = () => (
-  <div className="mainContainer">
-    <div className="contentContainer">
+  <div className="main-container">
+    <div className="content-container">
         <Intro/>
         <Projects/>
         <Experience/>
@@ -14,7 +14,7 @@ const IndexPage = () => (
         <Music/>
         <Info/>
     </div>
-    <div className="sidebarContainer">
+    <div className="sidebar-container">
       <Sidebar/>
     </div>
 

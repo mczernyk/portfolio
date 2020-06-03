@@ -20,7 +20,7 @@ const parallaxData = [
 const Music = () => (
   <section id="music">
     <Plx parallaxData={parallaxData}>
-      <div className="sectionContainerMusic">
+      <div className="section-container-music">
         <h1 className="section-title-coral">Music</h1>
         <br></br>
         <div className="music-intro">

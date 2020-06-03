@@ -21,7 +21,7 @@ const Education = () => (
   <section id="education">
   <Plx parallaxData={parallaxData}>
 
-    <div className="sectionContainerEducation">
+    <div className="section-container-education">
 
       <div>
       <h1 className="section-title-blue">Education</h1>

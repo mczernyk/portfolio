@@ -69,32 +69,32 @@ class Projects extends React.Component {
       // Render component inside projects container, otherwise show project tiles
 
       (this.state.seenCrum) ?
-      (<div className="projectsMain">
+      (<div className="projects-main">
       <PopupCrum onClose={this.toggleCrum} seenCrum={this.state.seenCrum} />
       </div>) : (
 
       (this.state.seenMex) ?
-      (<div className="projectsMain">
+      (<div className="projects-main">
       <PopupMex onClose={this.toggleMex} seenMex={this.state.seenMex} />
       </div>) : (
 
       (this.state.seenFriend) ?
-      (<div className="projectsMain">
+      (<div className="projects-main">
       <PopupFriend onClose={this.toggleFriend} seenFriend={this.state.seenFriend} />
       </div>) : (
 
       (this.state.seenGame) ?
-      (<div className="projectsMain">
+      (<div className="projects-main">
       <PopupGame onClose={this.toggleGame} seenGame={this.state.seenGame} />
       </div>) : (
 
       (this.state.seenCoffee) ?
-      (<div className="projectsMain">
+      (<div className="projects-main">
       <PopupCoffee onClose={this.toggleCoffee} seenCoffee={this.state.seenCoffee} />
       </div>) : (
 
-      (<div className="projectsMain">
-        <div className="projectsBuffer">
+      (<div className="projects-main">
+        <div className="projects-buffer">
         <div className="crum-section">
           <div
             className="crum-tile"

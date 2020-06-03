@@ -37,7 +37,7 @@ const parallaxProjects= [
 const Projects = () => (
   <section id="projects">
     <Plx parallaxData={parallaxData}>
-      <div className="sectionContainerProjects">
+      <div className="section-container-projects">
       <Plx parallaxData={parallaxProjects}>
         <h1 className="section-title-white">Projects</h1>
         <br></br>

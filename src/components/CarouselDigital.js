@@ -61,18 +61,8 @@ function CarouselDesign() {
     <div className="design-carousel">
       <Flickity>
       {glitches.map(glitch => (
-        <div className="carousel-cell"
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'center',
-            paddingTop: '20px',
-            paddingLeft: '10px',
-            paddingRight: '10px'
-          }}
-        >
-          <img className="portfolioPic" src={glitch.art} alt={glitch.alt} height="350px" />
+        <div className="carousel-cell">
+          <img className="portfolio-pic" src={glitch.art} alt={glitch.alt}/>
           <br></br>
         </div>
       ))}

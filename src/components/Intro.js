@@ -40,12 +40,12 @@ const parallaxIntro = [
 
 const Intro = () => (
   <Plx parallaxData={parallaxData}>
-  <div className="sectionContainerIntro">
+  <div className="section-container-intro">
     <section id="about">
       <div className="intro-container">
         <div className="avi">
 
-          <div className="avatarMain">
+          <div className="avatar-main">
             <img
               src={avatar}
               alt=""
