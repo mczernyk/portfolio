@@ -1,8 +1,8 @@
 import React, { Component } from "react"
-import crum from "../../../public/images/crum1.gif"
-import crumMap from "../../../public/images/crummap.gif"
-import crumCollected from "../../../public/images/crumCollected.gif"
-import crumDropped from "../../../public/images/crumDropped.gif"
+import crum from "../../images/crum1.gif"
+import crumMap from "../../images/crummap.gif"
+import crumCollected from "../../images/crumCollected.gif"
+import crumDropped from "../../images/crumDropped.gif"
 
 export default class PopupCrum extends Component {
   onClose = e => {
