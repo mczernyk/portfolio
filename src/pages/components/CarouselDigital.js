@@ -27,7 +27,7 @@ import glitch23 from "../../../public/images/23.glitch.png"
 import glitch24 from "../../../public/images/24.glitch.png"
 import "../../styles/flickity.css"
 
-function CarouselDesign() {
+function CarouselDigital() {
   let glitches = [
     { art: glitch01, alt: "Glitch01" },
     { art: glitch02, alt: "Glitch02" },
@@ -69,4 +69,4 @@ function CarouselDesign() {
   )
 }
 
-export default CarouselDesign
+export default CarouselDigital

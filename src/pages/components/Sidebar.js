@@ -1,8 +1,8 @@
-import React, { Component } from "react"
+import React from "react"
 import Scrollspy from "react-scrollspy"
 import Scroll from "./Scroll"
 
-export class Sidebar extends Component {
+class Sidebar extends React.Component {
   constructor(props) {
     super(props)
     this.state = {

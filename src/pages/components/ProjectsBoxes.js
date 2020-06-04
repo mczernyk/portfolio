@@ -12,7 +12,7 @@ import friendshopdemo from "../../../public/images/friendshop.gif"
 import gameoflife from "../../../public/images/gameoflife.gif"
 import coffeeClicker from "../../../public/images/coffeeclicker.gif"
 
-class Projects extends React.Component {
+class ProjectsBoxes extends React.Component {
   constructor() {
     super()
     this.state = {
@@ -213,4 +213,4 @@ class Projects extends React.Component {
   }
 }
 
-export default Projects
+export default ProjectsBoxes

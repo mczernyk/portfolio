@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { CarouselArt } from "./indexComp"
 
-export default class DesignDigital extends Component {
+export default class DesignArt extends Component {
   onClose = e => {
     this.props.onClose && this.props.onClose(e)
   }
