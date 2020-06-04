@@ -1,12 +1,12 @@
+import React, { Component } from "react"
 import smoothscroll from "smoothscroll-polyfill"
-import React from "react"
 import PropTypes from "prop-types"
 
 const Element = props => {
   return props.children
 }
 
-class Scroll extends React.Component {
+export default class Scroll extends Component {
   static propTypes = {
     type: PropTypes.string,
     element: PropTypes.string,
@@ -67,5 +67,3 @@ class Scroll extends React.Component {
     )
   }
 }
-
-export default Scroll

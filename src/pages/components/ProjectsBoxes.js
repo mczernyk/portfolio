@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Component } from "react"
 import {
   PopupCrum,
   PopupMex,
@@ -12,7 +12,7 @@ import friendshopdemo from "../../../public/images/friendshop.gif"
 import gameoflife from "../../../public/images/gameoflife.gif"
 import coffeeClicker from "../../../public/images/coffeeclicker.gif"
 
-class ProjectsBoxes extends React.Component {
+export default class ProjectsBoxes extends Component {
   constructor() {
     super()
     this.state = {
@@ -212,5 +212,3 @@ class ProjectsBoxes extends React.Component {
     )
   }
 }
-
-export default ProjectsBoxes
