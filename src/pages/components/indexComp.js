@@ -20,7 +20,7 @@ import Music from "./Music"
 import Info from "./Info"
 import Sidebar from "./Sidebar"
 
-export {Intro};
+export default Intro;
 export {Projects};
 export {ProjectsBoxes};
 export {PopupCrum};
