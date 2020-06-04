@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import gameoflife from "../../../public/images/gameoflife.gif"
+import gameoflife from "../../images/gameoflife.gif"
 
 export default class PopupGame extends Component {
   onClose = e => {
