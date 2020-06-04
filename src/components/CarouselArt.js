@@ -17,6 +17,7 @@ function CarouselArt() {
   ]
 
   return (
+
     <div className="design-carousel">
       <Flickity>
         {works.map(work => (
