@@ -7,7 +7,7 @@ import dadHead from "../../public/images/dadhead.png"
 import mtcLogo from "../../public/images/mtclogoRevised.png"
 import crumLogo from "../../public/images/crumLogoAndText.png"
 import mtcChina from "../../public/images/chinacardRevised.png"
-import "../../public/flickity.css"
+import "../styles/flickity.css"
 
 function CarouselDesign() {
   let designs = [

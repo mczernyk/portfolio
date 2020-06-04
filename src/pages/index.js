@@ -8,8 +8,8 @@ import {
   Music,
   Info,
   Sidebar,
-} from "../components/indexComp"
-import "../../public/styles.css"
+} from "./indexComp"
+import "../styles/styles.css"
 
 const IndexPage = () => (
   <div className="main-container">

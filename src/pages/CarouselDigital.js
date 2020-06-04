@@ -25,8 +25,7 @@ import glitch21 from "../../public/images/21.glitch.png"
 import glitch22 from "../../public/images/22.glitch.png"
 import glitch23 from "../../public/images/23.glitch.png"
 import glitch24 from "../../public/images/24.glitch.png"
-
-import "../../public/flickity.css"
+import "../styles/flickity.css"
 
 function CarouselDesign() {
   let glitches = [

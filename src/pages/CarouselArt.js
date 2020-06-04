@@ -6,7 +6,7 @@ import flhouse from "../../public/images/flhouse.jpg"
 import snow from "../../public/images/snow.jpg"
 import grass from "../../public/images/grass.jpg"
 import plant from "../../public/images/plant2.jpg"
-import "../../public/flickity.css"
+import "../styles/flickity.css"
 
 function CarouselArt() {
   let works = [
