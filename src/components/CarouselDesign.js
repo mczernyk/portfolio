@@ -1,12 +1,12 @@
 import React from "react"
 import Flickity from "react-flickity-component"
-import dad2 from "../../images/dad2.png"
-import libertyDad from "../../images/libertydadfinalblack.png"
-import dadHead from "../../images/dadhead.png"
-import mtcLogo from "../../images/mtclogoRevised.png"
-import crumLogo from "../../images/crumLogoAndText.png"
-import mtcChina from "../../images/chinacardRevised.png"
-import "../../styles/flickity.css"
+import dad2 from "../images/dad2.png"
+import libertyDad from "../images/libertydadfinalblack.png"
+import dadHead from "../images/dadhead.png"
+import mtcLogo from "../images/mtclogoRevised.png"
+import crumLogo from "../images/crumLogoAndText.png"
+import mtcChina from "../images/chinacardRevised.png"
+import "../styles/flickity.css"
 
 function CarouselDesign() {
   let designs = [

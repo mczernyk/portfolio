@@ -6,11 +6,11 @@ import {
   PopupGame,
   PopupCoffee,
 } from "./indexComp"
-import crum from "../../images/crum1.gif"
-import mextrixdemo from "../../images/mextrixdemo.gif"
-import friendshopdemo from "../../images/friendshop.gif"
-import gameoflife from "../../images/gameoflife.gif"
-import coffeeClicker from "../../images/coffeeclicker.gif"
+import crum from "../images/crum1.gif"
+import mextrixdemo from "../images/mextrixdemo.gif"
+import friendshopdemo from "../images/friendshop.gif"
+import gameoflife from "../images/gameoflife.gif"
+import coffeeClicker from "../images/coffeeclicker.gif"
 
 export default class ProjectsBoxes extends Component {
   constructor() {

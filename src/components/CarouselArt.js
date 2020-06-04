@@ -1,11 +1,11 @@
 import React from "react"
 import Flickity from "react-flickity-component"
-import bench from "../../images/bench.jpg"
-import flhouse from "../../images/flhouse.jpg"
-import snow from "../../images/snow.jpg"
-import grass from "../../images/grass.jpg"
-import plant from "../../images/plant2.jpg"
-import "../../styles/flickity.css"
+import bench from "../images/bench.jpg"
+import flhouse from "../images/flhouse.jpg"
+import snow from "../images/snow.jpg"
+import grass from "../images/grass.jpg"
+import plant from "../images/plant2.jpg"
+import "../styles/flickity.css"
 
 function CarouselArt() {
   let works = [
