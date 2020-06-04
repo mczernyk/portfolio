@@ -1,5 +1,4 @@
 import React from "react"
-import ReactDOM from "react-dom"
 import Flickity from "react-flickity-component"
 import dad2 from "../../../public/images/dad2.png"
 import libertyDad from "../../../public/images/libertydadfinalblack.png"

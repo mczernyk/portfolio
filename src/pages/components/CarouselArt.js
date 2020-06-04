@@ -1,5 +1,4 @@
 import React from "react"
-import ReactDOM from "react-dom"
 import Flickity from "react-flickity-component"
 import bench from "../../../public/images/bench.jpg"
 import flhouse from "../../../public/images/flhouse.jpg"

@@ -1,5 +1,4 @@
 import React from "react"
-import ReactDOM from "react-dom"
 import Flickity from "react-flickity-component"
 import glitch01 from "../../../public/images/01.glitch.png"
 import glitch02 from "../../../public/images/02.glitch.png"
