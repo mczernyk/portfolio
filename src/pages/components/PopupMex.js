@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import mextrixdemo from "../images/mextrixdemo.gif"
+import mextrixdemo from "../../images/mextrixdemo.gif"
 
 export default class PopupMex extends Component {
   onClose = e => {

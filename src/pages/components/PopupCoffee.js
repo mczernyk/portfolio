@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import coffeeClicker from "../images/coffeeclicker.gif"
+import coffeeClicker from "../../images/coffeeclicker.gif"
 
 export default class PopupCoffee extends Component {
   onClose = e => {

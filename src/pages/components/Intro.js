@@ -1,5 +1,5 @@
 import React from "react"
-import avatar from "../images/2014selfportrait.kago.jpg"
+import avatar from "../../images/2014selfportrait.kago.jpg"
 import Plx from "react-plx"
 
 const parallaxData = [
