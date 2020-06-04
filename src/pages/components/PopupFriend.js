@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import friendshopdemo from "../../public/images/friendshop.gif"
+import friendshopdemo from "../../../public/images/friendshop.gif"
 
 export default class PopupFriend extends Component {
   onClose = e => {

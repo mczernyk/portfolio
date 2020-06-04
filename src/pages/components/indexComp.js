@@ -1,5 +1,3 @@
-import React from "react"
-
 export { default as Intro } from "./Intro"
 export { default as Projects } from "./Projects"
 export { default as ProjectsBoxes } from "./ProjectsBoxes"

@@ -8,7 +8,7 @@ import {
   Music,
   Info,
   Sidebar,
-} from "./indexComp"
+} from "./components/indexComp"
 import "../styles/styles.css"
 
 const IndexPage = () => (

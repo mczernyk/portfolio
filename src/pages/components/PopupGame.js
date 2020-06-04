@@ -1,34 +1,38 @@
 import React, { Component } from "react"
-import coffeeClicker from "../../public/images/coffeeclicker.gif"
+import gameoflife from "../../../public/images/gameoflife.gif"
 
-export default class PopupCoffee extends Component {
+export default class PopupGame extends Component {
   onClose = e => {
     this.props.onClose && this.props.onClose(e)
   }
 
   render() {
-    if (!this.props.seenCoffee) {
+    if (!this.props.seenGame) {
       return null
     }
     return (
       <div>
         <div className="modal-section">
           <div className="modal-info">
-            <h3 className="modal-title">Coffee Clicker</h3>
+            <h3 className="modal-title">Game Of Life</h3>
             <div className="subheading">
-              Incremental game based on Cookie Clicker by Julien Thiennot
+              Visualization of Conway's Game of Life
             </div>
             <ul>
               <li>
-                Core functionality built as first Checkpoint at Fullstack
-                Academy following initial week of classes.
+                Core functionality built over a single day as a Fullstack
+                Academy in-class project.
               </li>
               <li>
                 Independently added custom CSS styling and design elements to
                 further develop Front End skills.
               </li>
+              <li>
+                Implemented additional features (randomize board, pause, draw on
+                hover) outside of workshop.
+              </li>
             </ul>
-            <img src={coffeeClicker} className="modal-image" />
+            <img src={gameoflife} className="modal-image" />
           </div>
           <br></br>
           <div className="modal-date">
@@ -36,8 +40,8 @@ export default class PopupCoffee extends Component {
               <div className="date-heading-modal">January 2020</div>
               <div className="social-icons-modal">
                 <a
-                  key="https://mczernyk.github.io/Checkpoint.DOM/"
-                  href="https://mczernyk.github.io/Checkpoint.DOM/"
+                  key="https://mczernyk.github.io/PairProject.Game-of-life/"
+                  href="https://mczernyk.github.io/PairProject.Game-of-life/"
                 >
                   <span className="fa-stack fa-lg fa1">
                     <i class="fa fa-circle fa-stack-2x"></i>

@@ -6,11 +6,11 @@ import {
   PopupGame,
   PopupCoffee,
 } from "./indexComp"
-import crum from "../../public/images/crum1.gif"
-import mextrixdemo from "../../public/images/mextrixdemo.gif"
-import friendshopdemo from "../../public/images/friendshop.gif"
-import gameoflife from "../../public/images/gameoflife.gif"
-import coffeeClicker from "../../public/images/coffeeclicker.gif"
+import crum from "../../../public/images/crum1.gif"
+import mextrixdemo from "../../../public/images/mextrixdemo.gif"
+import friendshopdemo from "../../../public/images/friendshop.gif"
+import gameoflife from "../../../public/images/gameoflife.gif"
+import coffeeClicker from "../../../public/images/coffeeclicker.gif"
 
 class Projects extends React.Component {
   constructor() {

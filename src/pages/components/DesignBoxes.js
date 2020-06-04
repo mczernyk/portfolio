@@ -1,8 +1,8 @@
 import React from "react"
 import { DesignGraphic, DesignDigital, DesignArt } from "./indexComp"
-import dad from "../../public/images/libertydadfinalblack.png"
-import glitch01 from "../../public/images/01.glitch.png"
-import snow from "../../public/images/snow.jpg"
+import dad from "../../../public/images/libertydadfinalblack.png"
+import glitch01 from "../../../public/images/01.glitch.png"
+import snow from "../../../public/images/snow.jpg"
 
 class DesignBoxes extends React.Component {
   constructor() {
