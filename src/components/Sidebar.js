@@ -27,7 +27,7 @@ export class Sidebar extends Component {
           <Scrollspy
             items={tabs.map(s => s.href)}
             currentClassName="nav-item-active"
-            offset={-300}
+            offset={-50}
             className="nav-inner"
           >
             {tabs.map((tab, i) => {

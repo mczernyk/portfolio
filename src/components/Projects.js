@@ -75,7 +75,7 @@ const Projects = () => (
             <div className="title-heading-skills">Knowledgeable</div>
             <li>API Gateway</li>
             <li>Gatsby.js</li>
-            <li>Netify</li>
+            <li>Netlify</li>
             <li>Heroku</li>
             <li>Expo</li>
             <li>Three.js</li>

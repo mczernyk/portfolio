@@ -43,7 +43,7 @@ export default class PopupCrum extends Component {
                 view.
               </li>
               <li>
-                App provides different experience based on device capability.
+                App provides different experiences based on device capability.
                 No-AR mode available to users with older phones.
               </li>
               <li>

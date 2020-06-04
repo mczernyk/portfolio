@@ -68,7 +68,7 @@ const Education = () => (
               <ul>
                 <li>National Merit Commended Student</li>
                 <li>AP Scholar with Distinction</li>
-                <li>Psycology Award</li>
+                <li>Psychology Award</li>
                 <li>Varsity Lacrosse, Varsity Squash</li>
               </ul>
             </div>
