@@ -1,14 +1,12 @@
 import React from "react"
-import {
-  Intro,
-  Projects,
-  Experience,
-  Education,
-  Design,
-  Music,
-  Info,
-  Sidebar,
-} from "./components/indexComp"
+import Intro from "./components/Intro"
+import Projects from "./components/Projects"
+import Experience from "./components/Experience"
+import Education from "./components/Education"
+import Design from "./components/Design"
+import Music from "./components/Music"
+import Info from "./components/Info"
+import Sidebar from "./components/Sidebar"
 import "../styles/styles.css"
 
 const IndexPage = () => (

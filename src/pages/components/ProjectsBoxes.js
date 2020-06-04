@@ -1,11 +1,9 @@
 import React, { Component } from "react"
-import {
-  PopupCrum,
-  PopupMex,
-  PopupFriend,
-  PopupGame,
-  PopupCoffee,
-} from "./indexComp"
+import PopupCrum from "./PopupCrum"
+import PopupMex from "./PopupMex"
+import PopupFriend from "./PopupFriend"
+import PopupGame from "./PopupGame"
+import PopupCoffee from "./PopupCoffee"
 import crum from "../../images/crum1.gif"
 import mextrixdemo from "../../images/mextrixdemo.gif"
 import friendshopdemo from "../../images/friendshop.gif"

@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { CarouselArt } from "./indexComp"
+import CarouselArt from "./CarouselArt"
 
 export default class DesignArt extends Component {
   onClose = e => {

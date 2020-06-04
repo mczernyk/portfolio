@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Scrollspy from "react-scrollspy"
-import Scroll from "./indexcomp"
+import Scroll from "./Scroll"
 
 export default class Sidebar extends Component {
   constructor(props) {

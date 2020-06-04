@@ -6,7 +6,7 @@ const Element = props => {
   return props.children
 }
 
-export class Scroll extends Component {
+export default class Scroll extends Component {
   static propTypes = {
     type: PropTypes.string,
     element: PropTypes.string,

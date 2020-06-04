@@ -1,5 +1,7 @@
 import React, { Component } from "react"
-import { DesignGraphic, DesignDigital, DesignArt } from "./indexComp"
+import DesignGraphic from "./DesignGraphic"
+import DesignDigital from "./DesignDigital"
+import DesignArt from "./DesignArt"
 import dad from "../../images/libertydadfinalblack.png"
 import glitch01 from "../../images/01.glitch.png"
 import snow from "../../images/snow.jpg"

@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { CarouselDigital } from "./indexComp"
+import CarouselDigital from "./CarouselDigital"
 
 export default class DesignDigital extends Component {
   onClose = e => {

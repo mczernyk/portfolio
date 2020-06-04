@@ -1,5 +1,5 @@
 import React from "react"
-import { ProjectsBoxes } from "./indexComp"
+import ProjectsBoxes from "./ProjectsBoxes"
 import Plx from "react-plx"
 
 const parallaxData = [

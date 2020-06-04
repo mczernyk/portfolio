@@ -1,6 +1,6 @@
 import React from "react"
 import Plx from "react-plx"
-import { DesignBoxes } from "./indexComp"
+import DesignBoxes from "./DesignBoxes"
 
 const parallaxData = [
   {
