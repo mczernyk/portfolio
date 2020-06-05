@@ -1,4 +1,8 @@
 import React, { Component } from "react"
+import { FontAwesomeIcon } from
+'@fortawesome/react-fontawesome'
+import { faCircle, faLaptop } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import mextrixdemo from "../../images/mextrixdemo.gif"
 
 export default class PopupMex extends Component {
@@ -44,20 +48,20 @@ export default class PopupMex extends Component {
                   key="https://github.com/mczernyk/Stackathon"
                   href="https://github.com/mczernyk/Stackathon"
                 >
-                  <span className="fa-stack fa-lg fa1">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i className="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
+                <span className="fa-layers fa-fw fa1p">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                  <FontAwesomeIcon icon={faGithub} transform="grow-5" inverse/>
+                </span>
                 </a>
 
                 <a
                   key="https://stackathon-mc.herokuapp.com/"
                   href="https://stackathon-mc.herokuapp.com/"
                 >
-                  <span className="fa-stack fa-lg fa1">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                  </span>
+                <span className="fa-layers fa-fw fa1p">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                  <FontAwesomeIcon icon={faLaptop} transform="grow-5" inverse/>
+                </span>
                 </a>
               </div>
               <br></br>

@@ -1,5 +1,9 @@
 import React from "react"
 import Plx from "react-plx"
+import { FontAwesomeIcon } from
+'@fortawesome/react-fontawesome'
+import { faCircle, faLaptop } from '@fortawesome/free-solid-svg-icons'
+import { faInstagram, faFacebookF } from '@fortawesome/free-brands-svg-icons'
 
 const parallaxData = [
   {
@@ -77,28 +81,28 @@ const Experience = () => (
                   key="https://www.instagram.com/raddadsofficial/"
                   href="https://www.instagram.com/raddadsofficial/"
                 >
-                  <span className="fa-stack fa-lg fa2">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i className="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                  </span>
+                <span className="fa-layers fa-fw fa2">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                  <FontAwesomeIcon icon={faInstagram} transform="grow-5" inverse/>
+                </span>
                 </a>
                 <a
                   key="https://www.facebook.com/raddadsofficial/"
                   href="https://www.facebook.com/raddadsofficial/"
                 >
-                  <span className="fa-stack fa-lg fa2">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i className="fa fa-facebook-f fa-stack-1x fa-inverse"></i>
-                  </span>
+                <span className="fa-layers fa-fw fa2">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                  <FontAwesomeIcon icon={faFacebookF} transform="grow-5" inverse/>
+                </span>
                 </a>
                 <a
                   key="https://www.raddadsofficial.com"
                   href="https://www.raddadsofficial.com"
                 >
-                  <span className="fa-stack fa-lg fa2">
-                    <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-                    <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                  </span>
+                <span className="fa-layers fa-fw fa2">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                  <FontAwesomeIcon icon={faLaptop} transform="grow-5" inverse/>
+                </span>
                 </a>
               </div>
             </div>
@@ -141,10 +145,10 @@ const Experience = () => (
                   key="https://www.mtctransportation.com/"
                   href="https://www.mtctransportation.com/"
                 >
-                  <span className="fa-stack fa-lg fa2">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                  </span>
+                <span className="fa-layers fa-fw fa2">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                  <FontAwesomeIcon icon={faLaptop} transform="grow-5" inverse/>
+                </span>
                 </a>
               </div>
             </div>

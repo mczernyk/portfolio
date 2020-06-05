@@ -1,4 +1,7 @@
 import React, { Component } from "react"
+import { FontAwesomeIcon } from
+'@fortawesome/react-fontawesome'
+import { faCircle, faLaptop } from '@fortawesome/free-solid-svg-icons'
 import coffeeClicker from "../../images/coffeeclicker.gif"
 
 export default class PopupCoffee extends Component {
@@ -39,10 +42,10 @@ export default class PopupCoffee extends Component {
                   key="https://mczernyk.github.io/Checkpoint.DOM/"
                   href="https://mczernyk.github.io/Checkpoint.DOM/"
                 >
-                  <span className="fa-stack fa-lg fa1">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                  </span>
+                <span className="fa-layers fa-fw fa1p">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                  <FontAwesomeIcon icon={faLaptop} transform="grow-5" inverse/>
+                </span>
                 </a>
               </div>
               <br></br>

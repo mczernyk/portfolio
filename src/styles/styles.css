@@ -18,19 +18,34 @@ a {
 }
 
 .fa1 {
-  color: rgb(255, 41, 76)
+  color: rgb(255, 41, 76);
+  padding: 30px
 }
 
 .fa1:hover {
   color: lightcoral
 }
 
+.fa1p {
+  color: rgb(255, 41, 76);
+  padding: 10px
+}
+
+.fa1p:hover {
+  color: lightcoral
+}
+
 .fa2 {
-  color: #04284a
+  color: #04284a;
+  padding: 10px
 }
 
 .fa2:hover {
   color: rgb(255, 41, 76)
+}
+
+.fa-layers {
+  text-align: center;
 }
 
 .main-container {
@@ -223,6 +238,7 @@ a {
 
 .fa-3x {
   color: #04284a;
+  padding: 25px
 }
 .fa-3x:hover {
   color: lightcoral;
@@ -868,7 +884,8 @@ a {
   align-items: center;
   justify-content: center;
   min-width: 31%;
-  flex: 1
+  flex: 1;
+  padding: 30px;
 }
 
 .fa-5x:hover {

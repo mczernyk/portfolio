@@ -1,4 +1,8 @@
 import React, { Component } from "react"
+import { FontAwesomeIcon } from
+'@fortawesome/react-fontawesome'
+import { faCircle } from '@fortawesome/free-solid-svg-icons'
+import { faYoutube, faGithub} from '@fortawesome/free-brands-svg-icons'
 import crum from "../../images/crum1.gif"
 import crumMap from "../../images/crummap.gif"
 import crumCollected from "../../images/crumCollected.gif"
@@ -86,20 +90,20 @@ export default class PopupCrum extends Component {
                   key="https://github.com/TeamKnown/Crum"
                   href="https://github.com/TeamKnown/Crum"
                 >
-                  <span className="fa-stack fa-lg fa1">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i className="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
+                <span className="fa-layers fa-fw fa1p">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                  <FontAwesomeIcon icon={faGithub} transform="grow-5" inverse/>
+                </span>
                 </a>
 
                 <a
                   key="https://www.youtube.com/watch?v=yui-dKm0ZwM&feature=youtu.be"
                   href="https://www.youtube.com/watch?v=yui-dKm0ZwM&feature=youtu.be"
                 >
-                  <span className="fa-stack fa-lg fa1">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i className="fa fa-youtube fa-stack-1x fa-inverse"></i>
-                  </span>
+                <span className="fa-layers fa-fw fa1p">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                  <FontAwesomeIcon icon={faYoutube} transform="grow-5" inverse/>
+                </span>
                 </a>
               </div>
               <br></br>

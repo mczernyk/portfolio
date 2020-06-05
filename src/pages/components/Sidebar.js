@@ -1,6 +1,10 @@
 import React, { Component } from "react"
 import Scrollspy from "react-scrollspy"
 import Scroll from "./Scroll"
+import { FontAwesomeIcon } from
+'@fortawesome/react-fontawesome'
+import { faCircle, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 export default class Sidebar extends Component {
   constructor(props) {
@@ -51,25 +55,25 @@ export default class Sidebar extends Component {
               key="https://github.com/mczernyk"
               href="https://github.com/mczernyk"
             >
-              <span className="fa-stack fa-3x">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i className="fa fa-github fa-stack-1x fa-inverse"></i>
-              </span>
+            <span className="fa-layers fa-fw fa-3x">
+              <FontAwesomeIcon icon={faCircle} transform="grow-15"/>
+              <FontAwesomeIcon icon={faGithub} inverse transform="grow-2"/>
+            </span>
             </a>
 
             <a
               key="https://linkedin.com/in/czernyk/"
               href="https://linkedin.com/in/czernyk/"
             >
-              <span className="fa-stack fa-3x">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              <span className="fa-layers fa-fw fa-3x">
+                <FontAwesomeIcon icon={faCircle} transform="grow-15"/>
+                <FontAwesomeIcon icon={faLinkedin} inverse transform="grow-2"/>
               </span>
             </a>
             <a key="email" href={`mailto:mczernyk@gmail.com`}>
-              <span className="fa-stack fa-3x">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i className="fa fa-envelope fa-stack-1x fa-inverse"></i>
+              <span className="fa-layers fa-fw fa-3x">
+                <FontAwesomeIcon icon={faCircle} transform="grow-15"/>
+                <FontAwesomeIcon icon={faEnvelope} inverse transform="grow-2"/>
               </span>
             </a>
           </div>

@@ -1,4 +1,6 @@
 import React, { Component } from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircle, faPencilAlt } from '@fortawesome/free-solid-svg-icons'
 import CarouselDesign from "./CarouselDesign"
 
 export default class DesignDigital extends Component {
@@ -25,9 +27,9 @@ export default class DesignDigital extends Component {
 
         <div className="design-text">
           <div className="design-icon">
-            <span className="fa-stack fa-5x">
-              <i class="fa fa-circle fa-stack-2x"></i>
-              <i className="fa fa-pencil fa-stack-1x fa-inverse"></i>
+            <span className="fa-layers fa-fw fa-5x">
+              <FontAwesomeIcon icon={faCircle} transform="grow-12"/>
+              <FontAwesomeIcon icon={faPencilAlt} inverse/>
             </span>
           </div>
 

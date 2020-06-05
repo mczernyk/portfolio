@@ -1,6 +1,10 @@
 import React from "react"
 import avatar from "../../images/2014selfportrait.kago.jpg"
 import Plx from "react-plx"
+import { FontAwesomeIcon } from
+'@fortawesome/react-fontawesome'
+import { faCircle, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const parallaxData = [
   {
@@ -70,26 +74,26 @@ const Intro = () => (
                   key="https://github.com/mczernyk"
                   href="https://github.com/mczernyk"
                 >
-                  <span className="fa-stack fa-2x fa1">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i className="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
+                <span className="fa-layers fa-fw fa1">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-60"/>
+                  <FontAwesomeIcon icon={faGithub} inverse transform="grow-30"/>
+                </span>
                 </a>
 
                 <a
                   key="https://linkedin.com/in/czernyk/"
                   href="https://linkedin.com/in/czernyk/"
                 >
-                  <span className="fa-stack fa-2x fa1">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                  </span>
+                <span className="fa-layers fa-fw fa1">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-60"/>
+                  <FontAwesomeIcon icon={faLinkedin} inverse transform="grow-30"/>
+                </span>
                 </a>
                 <a key="email" href={`mailto:mczernyk@gmail.com`}>
-                  <span className="fa-stack fa-2x fa1">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i className="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                  </span>
+                <span className="fa-layers fa-fw fa1">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-60"/>
+                  <FontAwesomeIcon icon={faEnvelope} inverse transform="grow-30"/>
+                </span>
                 </a>
               </div>
               <br></br>
