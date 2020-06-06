@@ -56,6 +56,7 @@ a {
 }
 
 .content-container {
+  position: relative;
   width: 85%;
   height: 100ev;
 }
@@ -113,6 +114,7 @@ a {
 @media (max-width: 500px) {
   .section-container-intro {
     border-left: 25px dotted lightcoral;
+    padding-top: 50px;
   }
   .section-container-experience {
     border-left: 25px dotted white;
@@ -146,7 +148,69 @@ a {
   text-decoration-color: white;
 }
 
+/* Topbar Navigation */
 
+.topbar-container{
+  position: fixed;
+  background-color: rgb(255, 41, 76);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.open-bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 96vw;
+  height: 40px;
+}
+.open-bar-button{
+  text-align: center;
+  color: white;
+}
+
+.open-bar:hover .open-bar-button{
+  transform: scale(1.2);
+  transition: transform 800ms;
+}
+
+.close-bar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 96vw;
+  height: 40px;
+  background-color: white;
+}
+.close-bar-button{
+  text-align: center;
+  color: rgb(255, 41, 76);
+}
+
+.close-bar:hover .close-bar-button{
+  transform: scale(1.2);
+  transition: transform 800ms;
+}
+
+@media (max-width: 500px) {
+  .main-container {
+    flex-wrap: wrap-reverse;
+  }
+  .topbar-container {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 501px) {
+  .topbar-container {
+    display: none;
+  }
+}
 /* Sidebar Navigation */
 
 .sidebar-container{
@@ -266,10 +330,15 @@ a {
     width: 100%;
   }
   .sidebar-container {
+    display: none;
+  }
+  .topbar-container {
     max-width: 100%;
   }
   .nav {
     flex-direction: row;
+    width: 96vw;
+    border-radius: 10px
   }
   .nav-inner {
     flex-direction: row;
@@ -335,6 +404,7 @@ a {
   font-size: 50px;
   text-decoration: underline;
   text-decoration-color: lightcoral;
+  text-align: center;
 }
 
 .skills-info{
@@ -952,6 +1022,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   background-color: white;
   color: lightcoral;
   box-shadow: -10px -10px #04284a;

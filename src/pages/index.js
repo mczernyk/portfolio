@@ -7,10 +7,13 @@ import Design from "./components/Design"
 import Music from "./components/Music"
 import Info from "./components/Info"
 import Sidebar from "./components/Sidebar"
+import Topbar from "./components/Topbar"
+
 import "../styles/styles.css"
 
 const IndexPage = () => (
   <div className="main-container">
+
     <div className="content-container">
       <Intro />
       <Projects />
@@ -22,6 +25,9 @@ const IndexPage = () => (
     </div>
     <div className="sidebar-container">
       <Sidebar />
+    </div>
+    <div className="topbar-container">
+      <Topbar/>
     </div>
   </div>
 )
