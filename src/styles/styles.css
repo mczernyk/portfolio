@@ -48,6 +48,11 @@ a {
   text-align: center;
 }
 
+.fa-fw:active {
+  transform: scale(.8);
+  transition: transform 800ms;
+}
+
 .main-container {
   display: flex;
   flex-direction: row;
@@ -178,6 +183,11 @@ a {
   transition: transform 800ms;
 }
 
+.open-bar:active .open-bar-button{
+  transform: scale(.8);
+  transition: transform 800ms;
+}
+
 .close-bar{
   display: flex;
   flex-direction: column;
@@ -194,6 +204,11 @@ a {
 
 .close-bar:hover .close-bar-button{
   transform: scale(1.2);
+  transition: transform 800ms;
+}
+
+.close-bar:active .close-bar-button{
+  transform: scale(.8);
   transition: transform 800ms;
 }
 
@@ -338,7 +353,7 @@ a {
   .nav {
     flex-direction: row;
     width: 96vw;
-    border-radius: 10px
+    border-radius: 10px;
   }
   .nav-inner {
     flex-direction: row;
@@ -569,6 +584,11 @@ a {
   box-shadow: 10px -10px white;
   transform: scale(1.01);
   transition: box-shadow 800ms;
+}
+
+.button-project:active {
+  transform: scale(.8);
+  transition: transform 800ms;
 }
 
 
@@ -926,6 +946,11 @@ a {
   box-shadow: 10px 10px white;
   transform: scale(1.01);
   transition: box-shadow 800ms;
+}
+
+.button-design:active {
+  transform: scale(.8);
+  transition: transform 800ms;
 }
 
 .title-heading-design {
