@@ -39,7 +39,7 @@ const Experience = () => (
                   portfolio management and general Blockchain education.
                 </li>
                 <li>
-                  Providing guidance re: mining, trading and analyzing
+                  Providing guidance re: trading, mining and analyzing
                   Cryptoassets.
                 </li>
               </ul>

@@ -26,17 +26,17 @@ const Info = () => (
           <p>
             When I'm not programming, I spend most of my time coming up with dad
             jokes for the <span className="subheading">Rad Dads Official</span>{" "}
-            Instagram account, watching Bitcoin charts, and scouring eBay and
-            Craigslist for good deals. I'm a collector and reseller of many
+            Instagram account, watching Bitcoin charts & scouring eBay &
+            Craigslist for good deals. I'm a collector & reseller of many
             things -- most notably vinyl, sneakers, clothing, vintage audio
-            equipment and instruments.
+            equipment & instruments.
           </p>
           <p>
-            I do my best to stay active and healthy. I still play lacrosse with
-            my Rad Dads squad in a local men's league and am always looking for
-            new recipes to try out in the kitchen and on the grill. I spend as
+            I do my best to stay active & healthy. I still play lacrosse with
+            my Rad Dads squad in a local men's league & am always looking for
+            new recipes to try out in the kitchen & on the grill. I spend as
             much time as I can outside in my apartment's backyard where I
-            maintain a small garden and keep myself busy tinkering around on
+            maintain a small garden & keep myself busy tinkering around on
             outdoor projects.
           </p>
           <p>

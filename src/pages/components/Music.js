@@ -26,7 +26,7 @@ const Music = () => (
         <div className="music-intro">
           <p>
             I've always been a crate digger. My interest in music led me to
-            DJing, and eventually music production.
+            DJing & eventually music production.
           </p>
           <p>
             You can hear some of my original tracks below -- a collection was

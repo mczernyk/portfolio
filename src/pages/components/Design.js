@@ -26,14 +26,14 @@ const Design = () => (
         <br></br>
         <p className="design-intro">
           Click on any of the tiles below to see some of my graphic design, art
-          and photography.
+          & photography.
         </p>
         <p className="design-intro">
-          I've created logos and ad campaigns for employers, clients and
+          I've created logos & ad campaigns for employers, clients &
           personal brands in the past.
         </p>
         <p className="design-intro">
-          I enjoy creating digital and physical art in my spare time, too.
+          I enjoy creating digital & physical art in my spare time, too.
         </p>
         <br></br>
         <DesignBoxes />

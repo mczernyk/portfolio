@@ -29,7 +29,7 @@ const Projects = () => (
             Click on any of the tiles below to see some of my recent projects.
           </p>
           <p className="projects-intro">
-            I'm experienced with building user-friendly web and mobile
+            I'm experienced with building user-friendly web & mobile
             applications.
           </p>
           <br></br>
