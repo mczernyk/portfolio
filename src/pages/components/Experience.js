@@ -9,7 +9,7 @@ const parallaxData = [
   {
     start: "self",
     duration: "800vh",
-    startOffset: "100vh",
+    startOffset: "200vh",
     properties: [
       {
         startValue: 0,
