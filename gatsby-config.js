@@ -5,7 +5,11 @@
  */
 
 module.exports = {
-
+  siteMetadata: {
+    title: `Mark Czernyk Portfolio`,
+    description: `Background and Projects`,
+    author: `Mark Czernyk`,
+  },
   plugins: [
     {
       resolve: 'gatsby-plugin-web-font-loader',
@@ -26,6 +30,9 @@ module.exports = {
         display: 'standalone',
         icon: 'src/images/icon.png'
       }
-    }
+    },
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
+
   ],
 }
