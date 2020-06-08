@@ -1011,7 +1011,37 @@ a {
 }
 
 .portfolio-pic {
-  height: 350px
+  height: 350px;
+}
+
+.carousel-cell-graphic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.portfolio-pic-graphic {
+  height: 350px;
+}
+
+@media (max-width: 500px) {
+  .portfolio-pic-graphic {
+    display: block;
+    max-width: 85vw;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+  }
+
+  .carousel-cell-graphic {
+    justify-content: space-evenly;
+    height: 400px;
+    padding-bottom: 20px;
+  }
 }
 /* Music */
 
