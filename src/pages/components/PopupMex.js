@@ -20,7 +20,7 @@ export default class PopupMex extends Component {
           <div className="modal-info">
             <h3 className="modal-title">MEXTrix</h3>
             <div className="subheading">
-              Realtime Bitmex Orderbook with Liquidation and Whale Tracker
+              Realtime Bitmex Orderbook with Liquidation & Whale Tracker
             </div>
             <ul>
               <li>
@@ -32,10 +32,10 @@ export default class PopupMex extends Component {
                 local price levels.
               </li>
               <li>
-                Tracks and displays liquidations and all orders of greater than
+                Tracks & displays liquidations & all orders of greater than
                 100k contracts.
               </li>
-              <li>Formatted for web and mobile.</li>
+              <li>Formatted for web & mobile.</li>
             </ul>
             <img src={mextrixdemo} className="modal-image" />
           </div>

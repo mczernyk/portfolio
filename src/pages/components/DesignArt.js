@@ -37,7 +37,7 @@ export default class DesignArt extends Component {
             <p>
               Designing on a computer is great, but there's still something
               special about working with paint. I especially like oil paint as a
-              medium because of its texture and slow drying time.
+              medium because of its texture & slow drying time.
               <br></br>
             </p>
           </div>

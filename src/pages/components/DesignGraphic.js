@@ -35,13 +35,13 @@ export default class DesignDigital extends Component {
 
           <div className="design-right">
             <p>
-              In my spare time, I enjoy making digital and physical art - check
-              out a preview below. I regularly create new logos and designs for{" "}
+              In my spare time, I enjoy making digital & physical art - check
+              out a preview below. I regularly create new logos & designs for{" "}
               <span className="subheading">Rad Dads Official</span> that are
-              used on apparel and other products. While at{" "}
+              used on apparel & other products. While at{" "}
               <span className="subheading">MTC Transportation</span>, I designed
-              the company's logo, website, and ad campaigns. I also created
-              promotional materials and business cards for{" "}
+              the company's logo, website, & ad campaigns. I also created
+              promotional materials & business cards for{" "}
               <span className="subheading">Red Hook Container Terminal</span> in
               preparation for a trip to China for a Freight Expo in 2017.{" "}
             </p>

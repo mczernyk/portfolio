@@ -28,7 +28,7 @@ export default class PopupCrum extends Component {
             </div>
             <ul>
               <li>
-                Allows users to drop and collect “Crums” - images with attached
+                Allows users to drop & collect “Crums” - images with attached
                 messages - that are tied to location.
               </li>
               <li>
@@ -40,10 +40,10 @@ export default class PopupCrum extends Component {
                 map via icon.
               </li>
               <li>
-                Map view provides distance and directions to nearby Crums.
+                Map view provides distance & directions to nearby Crums.
               </li>
               <li>
-                Users can comment on and collect Crums through screen tap in AR
+                Users can comment on & collect Crums through screen tap in AR
                 view.
               </li>
               <li>
@@ -59,7 +59,7 @@ export default class PopupCrum extends Component {
                 <a href="https://www.linkedin.com/in/peterchen21/">
                   Peter Chen
                 </a>{" "}
-                and{" "}
+                &{" "}
                 <a href="https://www.linkedin.com/in/thomaszhang1/">
                   Thomas Zhang
                 </a>

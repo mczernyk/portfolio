@@ -36,11 +36,10 @@ const Experience = () => (
               <ul>
                 <li>
                   Cryptocurrency consulting specializing in trading strategy,
-                  portfolio management and general Blockchain education.
+                  portfolio management & general Blockchain education.
                 </li>
                 <li>
-                  Providing guidance re: trading, mining and analyzing
-                  Cryptoassets.
+                  Providing guidance re: trading, analyzing & mining Cryptoassets.
                 </li>
               </ul>
             </div>
@@ -56,20 +55,20 @@ const Experience = () => (
               <div className="subheading">Rad Dads Official</div>
               <ul>
                 <li>
-                  Leading design, marketing and sales for men’s lifestyle brand.
+                  Leading design, marketing & sales for men’s lifestyle brand.
                 </li>
                 <li>
-                  Building and managing{" "}
+                  Building & managing{" "}
                   <a href="http://www.raddadsofficial.com">
                     Rad Dads Official webstore
                   </a>{" "}
-                  and{" "}
+                  &{" "}
                   <a href="http://www.instagram.com/raddadsofficial">
                     Instagram
                   </a>{" "}
                   /{" "}
                   <a href="http://www.facebook.com/raddadsofficial">Facebook</a>{" "}
-                  social accounts
+                  social accounts.
                 </li>
               </ul>
             </div>
@@ -117,20 +116,20 @@ const Experience = () => (
               <div className="subheading">MTC Transportation</div>
               <ul>
                 <li>
-                  Overseeing daily operations of NY-based Trucking and Logistics
+                  Overseeing daily operations of NY-based Trucking & Logistics
                   Co. (~100 truck fleet; 3 divisions).
                 </li>
                 <li>
-                  Securing new accounts and maintaining client relationships.
+                  Securing new accounts & maintaining client relationships.
                 </li>
                 <li>
-                  Implementing new operational structure and technology upgrade
-                  of Brooklyn and Bronx divisions; opening and managing remote
+                  Implementing new operational structure & technology upgrade
+                  of Brooklyn & Bronx divisions; opening & managing remote
                   NJ division.
                 </li>
                 <li>
-                  Designing company logo, business cards and ad copy /
-                  campaigns; building and maintaining{" "}
+                  Designing company logo, business cards & ad copy /
+                  campaigns; building & maintaining{" "}
                   <a href="http://www.mtctransportation.com">
                     MTC Transportation website
                   </a>
@@ -162,12 +161,12 @@ const Experience = () => (
               <ul>
                 <li>
                   Assisting lawyers on all phases of the litigation process
-                  including preparation of pleadings and filings.
+                  including preparation of pleadings & filings.
                 </li>
-                <li>Performing factual research and document review.</li>
+                <li>Performing factual research & document review.</li>
                 <li>
-                  Maintaining case files and databases. Implementing firm-wide
-                  database structure and file naming conventions.
+                  Maintaining case files & databases. Implementing firm-wide
+                  database structure & file naming conventions.
                 </li>
               </ul>
             </div>
@@ -186,13 +185,31 @@ const Experience = () => (
               <ul>
                 <li>
                   Assisting senior sales team at finance-focused executive
-                  search firm by cold calling for leads and coordinating with
-                  clients both in person and over the phone.
+                  search firm by cold calling for leads & coordinating with
+                  clients both in person & over the phone.
                 </li>
               </ul>
             </div>
             <div className="resume-date">
               <div className="date-heading">June 2010 - March 2012</div>
+            </div>
+          </div>
+          <br></br>
+
+          <div className="resume-item">
+            <div className="resume-content">
+              <div className="title-heading-exp">Press Office, Public Integrity Bureau</div>
+              <div className="subheading">NYS Office of the Attorney General</div>
+              <ul>
+                <li>
+                Providing research & support to senior staff handling investigations into government corruption, fraud & abuse of authority.
+                </li>
+                <li>Writing press releases & researching stories related to OAG business. Coordinating with statewide news outlets regarding actions of the OAG & organizing media presence at OAG press events.
+                </li>
+              </ul>
+            </div>
+            <div className="resume-date">
+              <div className="date-heading">Summers 2008 & 2009</div>
             </div>
           </div>
           <br></br>

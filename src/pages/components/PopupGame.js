@@ -27,7 +27,7 @@ export default class PopupGame extends Component {
                 Academy in-class project.
               </li>
               <li>
-                Independently added custom CSS styling and design elements to
+                Independently added custom CSS styling & design elements to
                 further develop Front End skills.
               </li>
               <li>

@@ -27,7 +27,7 @@ export default class PopupCoffee extends Component {
                 Academy following initial week of classes.
               </li>
               <li>
-                Independently added custom CSS styling and design elements to
+                Independently added custom CSS styling & design elements to
                 further develop Front End skills.
               </li>
             </ul>

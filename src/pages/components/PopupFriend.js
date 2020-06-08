@@ -23,17 +23,17 @@ export default class PopupFriend extends Component {
             <div className="subheading"> E-Commerce Platform</div>
             <ul>
               <li>
-                Uses models and associations created with Sequelize in
+                Uses models & associations created with Sequelize in
                 PostgreSQL to allow users to edit / retrieve account information
-                and past orders.
+                & past orders.
               </li>
               <li>
-                Supports both guests and users; uses session data to track guest
+                Supports both guests & users; uses session data to track guest
                 cart contents.
               </li>
               <li>
                 Admins are able to view custom page elements to edit inventory
-                and user info.
+                 user info.
               </li>
               <li>
                 Built in ten days with{" "}
@@ -44,7 +44,7 @@ export default class PopupFriend extends Component {
                 <a href="https://www.linkedin.com/in/peterchen21/">
                   Peter Chen
                 </a>{" "}
-                and{" "}
+                &{" "}
                 <a href="https://www.linkedin.com/in/gabriel-postelnicu92/">
                   Gabriel Postelnicu
                 </a>

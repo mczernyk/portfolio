@@ -28,15 +28,16 @@ export default class DesignDigital extends Component {
         <div className="design-text">
           <div className="design-icon">
             <span className="fa-layers fa-fw fa-5x">
-              <FontAwesomeIcon icon={faCircle} transform="grow-10"/>
+              <FontAwesomeIcon icon={faCircle} transform="grow-12"/>
               <FontAwesomeIcon icon={faFileImage} inverse/>
             </span>
           </div>
 
           <div className="design-right">
             <p>
-              I created a series of digital art as a submission for{" "}
-              <span className="subheading">Gli.tc/h Festival</span>. I made
+              I created this series of digital art as a submission for{" "}
+              <span className="subheading">Gli.tc/h</span>, a <i>“conference, festival and gathering hybrid [that] aims to gather glitch artists, theorists, coders and enthusiasts for a short time, to share their work and ideas.”</i>  <br></br>
+              I made
               these images by deliberately corrupting video files, then
               manipulating playback to generate visual glitches.
             </p>
