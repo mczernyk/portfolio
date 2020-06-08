@@ -5,8 +5,7 @@ import { faCircle } from '@fortawesome/free-solid-svg-icons'
 import { faYoutube, faGithub} from '@fortawesome/free-brands-svg-icons'
 import crum from "../../images/crum1.gif"
 import crumMap from "../../images/crummap.gif"
-import crumCollected from "../../images/crumCollected.gif"
-import crumDropped from "../../images/crumDropped.gif"
+import crumIntro from "../../images/crumIntro.gif"
 
 export default class PopupCrum extends Component {
   onClose = e => {
@@ -69,7 +68,7 @@ export default class PopupCrum extends Component {
             <div className="crum-images">
               <div>
                 <br></br>
-                <img src={crumCollected} className="modal-image-crum" />
+                <img src={crumIntro} className="modal-image-crum" />
               </div>
               <div>
                 <br></br>
