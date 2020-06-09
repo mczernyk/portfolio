@@ -20,7 +20,7 @@ function SEO({ description, lang, meta, title, author, image }) {
   const metaDescription = description || site.siteMetadata.description
   const metaTitle = title || site.siteMetadata.title
   const metaAuthor = author || site.siteMetadata.author
-  const metaImage = image|| '../../images/icon.png'
+  const metaImage = image|| site.siteMetadata.image
   return (
     <Helmet
       htmlAttributes={{
