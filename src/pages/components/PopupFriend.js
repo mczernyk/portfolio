@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from
 '@fortawesome/react-fontawesome'
 import { faCircle, faLaptop } from '@fortawesome/free-solid-svg-icons'
 import { faGithub} from '@fortawesome/free-brands-svg-icons'
-import friendshopdemo from "../../images/friendshop.mp4"
+import friendshopdemo from "../../images/friendshop.gif"
 
 export default class PopupFriend extends Component {
   onClose = e => {
@@ -51,9 +51,7 @@ export default class PopupFriend extends Component {
                 .
               </li>
             </ul>
-            <video className="modal-image" autoPlay loop muted>
-              <source src={friendshopdemo} type="video/mp4"/>
-            </video>
+            <img src={friendshopdemo} className="modal-image" />
           </div>
           <br></br>
           <div className="modal-date">

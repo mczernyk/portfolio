@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import { FontAwesomeIcon } from
 '@fortawesome/react-fontawesome'
 import { faCircle, faLaptop } from '@fortawesome/free-solid-svg-icons'
-import coffeeClicker from "../../images/coffeeclicker.mp4"
+import coffeeClicker from "../../images/coffeeclicker.gif"
 
 export default class PopupCoffee extends Component {
   onClose = e => {
@@ -31,9 +31,7 @@ export default class PopupCoffee extends Component {
                 further develop Front End skills.
               </li>
             </ul>
-            <video className="modal-image" autoPlay loop muted>
-              <source src={coffeeClicker} type="video/mp4"/>
-            </video>
+            <img src={coffeeClicker} className="modal-image" />
           </div>
           <br></br>
           <div className="modal-date">

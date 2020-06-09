@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from
 '@fortawesome/react-fontawesome'
 import { faCircle, faLaptop } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import mextrixdemo from "../../images/mextrixdemo.mp4"
+import mextrixdemo from "../../images/mextrixdemo.gif"
 
 export default class PopupMex extends Component {
   onClose = e => {
@@ -37,9 +37,7 @@ export default class PopupMex extends Component {
               </li>
               <li>Formatted for web & mobile.</li>
             </ul>
-            <video className="modal-image" autoPlay loop muted>
-              <source src={mextrixdemo} type="video/mp4"/>
-            </video>
+            <img src={mextrixdemo} className="modal-image" />
           </div>
           <br></br>
           <div className="modal-date">

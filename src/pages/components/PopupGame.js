@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import { FontAwesomeIcon } from
 '@fortawesome/react-fontawesome'
 import { faCircle, faLaptop } from '@fortawesome/free-solid-svg-icons'
-import gameoflife from "../../images/gameoflife.mp4"
+import gameoflife from "../../images/gameoflife.gif"
 
 export default class PopupGame extends Component {
   onClose = e => {
@@ -35,9 +35,7 @@ export default class PopupGame extends Component {
                 hover) outside of workshop.
               </li>
             </ul>
-            <video className="modal-image" autoPlay loop muted>
-              <source src={gameoflife} type="video/mp4"/>
-            </video>
+            <img src={gameoflife} className="modal-image" />
           </div>
           <br></br>
           <div className="modal-date">

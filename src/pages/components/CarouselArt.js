@@ -21,7 +21,7 @@ function CarouselArt() {
     <div className="design-carousel">
       <Flickity>
         {works.map(work => (
-          <div className="carousel-cell">
+          <div className="carousel-cell" key={work.alt}>
             <img className="portfolio-pic" src={work.art} alt={work.alt} />
             <br></br>
             <div className="subheading mb-3">{work.alt}</div>
