@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from
 '@fortawesome/react-fontawesome'
 import { faCircle } from '@fortawesome/free-solid-svg-icons'
 import { faYoutube, faGithub} from '@fortawesome/free-brands-svg-icons'
-import crum from "../../images/crum1.gif"
-import crumMap from "../../images/crummap.gif"
-import crumIntro from "../../images/crumIntro.gif"
+import crum from "../../images/crum1.mp4"
+import crumMap from "../../images/crummap.mp4"
+import crumIntro from "../../images/crumIntro.mp4"
 
 export default class PopupCrum extends Component {
   onClose = e => {
@@ -68,15 +68,21 @@ export default class PopupCrum extends Component {
             <div className="crum-images">
               <div>
                 <br></br>
-                <img src={crumIntro} className="modal-image-crum" />
+                <video className="modal-image-crum" autoPlay loop muted>
+                  <source src={crumIntro} type="video/mp4"/>
+                </video>
               </div>
               <div>
                 <br></br>
-                <img src={crum} className="modal-image-crum" />
+                <video className="modal-image-crum" autoPlay loop muted>
+                  <source src={crum} type="video/mp4"/>
+                </video>
               </div>
               <div>
                 <br></br>
-                <img src={crumMap} className="modal-image-crum" />
+                <video className="modal-image-crum" autoPlay loop muted>
+                  <source src={crumMap} type="video/mp4"/>
+                </video>
               </div>
             </div>
           </div>

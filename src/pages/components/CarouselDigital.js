@@ -2,16 +2,16 @@ import React from "react"
 import Flickity from "react-flickity-component"
 import glitch01 from "../../images/01.glitch.png"
 import glitch02 from "../../images/02.glitch.png"
-import glitch03 from "../../images/03.glitch.gif"
+import glitch03 from "../../images/03.glitch.mp4"
 import glitch04 from "../../images/04.glitch.png"
 import glitch05 from "../../images/05.glitch.png"
 import glitch06 from "../../images/06.glitch.png"
-import glitch07 from "../../images/07.glitch.gif"
+import glitch07 from "../../images/07.glitch.mp4"
 import glitch08 from "../../images/08.glitch.png"
 import glitch09 from "../../images/09.glitch.png"
 import glitch10 from "../../images/10.glitch.png"
 import glitch11 from "../../images/11.glitch.png"
-import glitch12 from "../../images/12.glitch.gif"
+import glitch12 from "../../images/12.glitch.mp4"
 import glitch13 from "../../images/13.glitch.png"
 import glitch14 from "../../images/14.glitch.png"
 import glitch15 from "../../images/15.glitch.png"
@@ -59,7 +59,11 @@ function CarouselDigital() {
       <Flickity>
         {glitches.map(glitch => (
           <div className="carousel-cell">
-            <img className="portfolio-pic" src={glitch.art} alt={glitch.alt} />
+            {glitch.art === glitch03 || glitch.art === glitch07 || glitch.art === glitch12 ? (<video className="portfolio-pic" autoPlay loop muted>
+            <source src={glitch.art} type="video/mp4"/>
+          </video>) : (<img className="portfolio-pic" src={glitch.art} alt={glitch.alt} />)}
+
+
             <br></br>
           </div>
         ))}

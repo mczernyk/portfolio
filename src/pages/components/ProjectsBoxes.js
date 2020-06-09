@@ -4,11 +4,11 @@ import PopupMex from "./PopupMex"
 import PopupFriend from "./PopupFriend"
 import PopupGame from "./PopupGame"
 import PopupCoffee from "./PopupCoffee"
-import crum from "../../images/crum1.gif"
-import mextrixdemo from "../../images/mextrixdemo.gif"
-import friendshopdemo from "../../images/friendshop.gif"
-import gameoflife from "../../images/gameoflife.gif"
-import coffeeClicker from "../../images/coffeeclicker.gif"
+import crum from "../../images/crum1.mp4"
+import mextrixdemo from "../../images/mextrixdemo.mp4"
+import friendshopdemo from "../../images/friendshop.mp4"
+import gameoflife from "../../images/gameoflife.mp4"
+import coffeeClicker from "../../images/coffeeclicker.mp4"
 
 export default class ProjectsBoxes extends Component {
   constructor() {
@@ -105,7 +105,9 @@ export default class ProjectsBoxes extends Component {
                 }}
               >
                 <div className="project-image">
-                  <img src={crum} className="image" alt="Crum" />
+                  <video className="image" autoPlay loop muted>
+                    <source src={crum} type="video/mp4"/>
+                  </video>
 
                   <div className="project-title">
                     <div className="project-category">
@@ -126,7 +128,9 @@ export default class ProjectsBoxes extends Component {
                 }}
               >
                 <div className="project-image">
-                  <img src={mextrixdemo} className="image" alt="MEXTrix" />
+                  <video className="image" autoPlay loop muted>
+                    <source src={mextrixdemo} type="video/mp4"/>
+                  </video>
 
                   <div className="project-title">
                     <div className="project-category">
@@ -145,11 +149,9 @@ export default class ProjectsBoxes extends Component {
                 }}
               >
                 <div className="project-image">
-                  <img
-                    src={friendshopdemo}
-                    className="image"
-                    alt="friendShop"
-                  />
+                  <video className="image" autoPlay loop muted>
+                    <source src={friendshopdemo} type="video/mp4"/>
+                  </video>
 
                   <div className="project-title">
                     <div className="project-category">
@@ -170,7 +172,9 @@ export default class ProjectsBoxes extends Component {
                 }}
               >
                 <div className="project-image">
-                  <img src={gameoflife} className="image" alt="Game of Life" />
+                <video className="image" autoPlay loop muted>
+                  <source src={gameoflife} type="video/mp4"/>
+                </video>
 
                   <div className="project-title">
                     <div className="project-category">
@@ -189,11 +193,9 @@ export default class ProjectsBoxes extends Component {
                 }}
               >
                 <div className="project-image">
-                  <img
-                    src={coffeeClicker}
-                    className="image"
-                    alt="Coffee Clicker"
-                  />
+                <video className="image" autoPlay loop muted>
+                  <source src={coffeeClicker} type="video/mp4"/>
+                </video>
                   <div className="project-title">
                     <div className="project-category">
                       <span className="project-name">Coffee Clicker</span>
