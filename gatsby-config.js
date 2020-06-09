@@ -10,6 +10,7 @@ module.exports = {
     description: `I'm Mark, a Software Engineer & Cryptocurrency Enthusiast with prior professional experience in Trading, Consulting, Sales, Operations & Law.
     I'm passionate about building stylish, intuitive products that solve problems & provide a pleasant user experience -- click to learn more about me.`,
     author: `Mark Czernyk`,
+    image: 'src/images/icon.png'
   },
   plugins: [
     {
