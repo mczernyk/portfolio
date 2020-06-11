@@ -73,7 +73,7 @@ const Education = () => (
               </ul>
             </div>
             <div className="resume-date">
-              <div className="date-heading">August 2007 - May 2011</div>
+              <div className="date-heading">August 2003 - May 2007</div>
             </div>
           </div>
           <br></br>
