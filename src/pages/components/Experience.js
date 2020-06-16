@@ -75,7 +75,7 @@ const Experience = () => (
                   social accounts.
                 </li>
                 <li>
-                  Building automated Twitter bot that posts a dad joke & corresponding image every four hours to the <a href="http://www.twitter.com/officialraddads">Rad Dads Twitter feed</a> to augment cross-posted Instagram content.
+                  Building automated Twitter bot that posts a dad joke & corresponding image every three hours to the <a href="http://www.twitter.com/officialraddads">Rad Dads Twitter feed</a> to augment cross-posted Instagram content.
                 </li>
               </ul>
             </div>
