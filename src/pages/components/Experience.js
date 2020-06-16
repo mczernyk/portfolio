@@ -3,7 +3,7 @@ import Plx from "react-plx"
 import { FontAwesomeIcon } from
 '@fortawesome/react-fontawesome'
 import { faCircle, faLaptop } from '@fortawesome/free-solid-svg-icons'
-import { faInstagram, faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faFacebookF, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 const parallaxData = [
   {
@@ -67,8 +67,15 @@ const Experience = () => (
                     Instagram
                   </a>{" "}
                   /{" "}
-                  <a href="http://www.facebook.com/raddadsofficial">Facebook</a>{" "}
+                  <a href="http://www.facebook.com/raddadsofficial">
+                    Facebook
+                  </a>{" "}
+                  /{" "}
+                  <a href="http://www.twitter.com/officialraddads">Twitter</a>{" "}
                   social accounts.
+                </li>
+                <li>
+                  Building automated Twitter bot that posts a dad joke & corresponding image every four hours to the <a href="http://www.twitter.com/officialraddads">Rad Dads Twitter feed</a> to augment cross-posted Instagram content.
                 </li>
               </ul>
             </div>
@@ -92,6 +99,15 @@ const Experience = () => (
                 <span className="fa-layers fa-fw fa2">
                   <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
                   <FontAwesomeIcon icon={faFacebookF} transform="grow-5" inverse/>
+                </span>
+                </a>
+                <a
+                  key="https://www.twitter.com/officialraddads/"
+                  href="https://www.twitter.com/officialraddads/"
+                >
+                <span className="fa-layers fa-fw fa2">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                  <FontAwesomeIcon icon={faTwitter} transform="grow-5" inverse/>
                 </span>
                 </a>
                 <a

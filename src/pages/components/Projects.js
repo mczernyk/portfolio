@@ -67,6 +67,7 @@ const Projects = () => (
             <li>Chai</li>
             <li>jQuery</li>
             <li>ngrok</li>
+            <li>Twitter Dev Lab</li>
           </div>
           <div className="skills-box-3">
             <div className="title-heading-skills">Skills</div>
