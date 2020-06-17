@@ -31,8 +31,8 @@ export default class PopupGame extends Component {
                 further develop Front End skills.
               </li>
               <li>
-                Implemented additional features (randomize board, pause, draw on
-                hover) outside of workshop.
+                Implemented additional features (randomize board,pause, draw on
+                hover, board edge wrapping) outside of workshop.
               </li>
             </ul>
             <img src={gameoflife} className="modal-image" />
