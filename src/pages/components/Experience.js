@@ -21,10 +21,26 @@ const parallaxData = [
   },
 ]
 
+const parallaxText = [
+  {
+    start: "self",
+    duration: "800vh",
+    properties: [
+      {
+        startValue: 0,
+        endValue: 20,
+        unit: "vh",
+        property: "translateY",
+      }
+    ],
+  },
+]
+
 const Experience = () => (
   <section id="experience">
     <Plx parallaxData={parallaxData}>
       <div className="section-container-experience">
+      <Plx parallaxData={parallaxText}>
         <div>
           <h1 className="section-title-coral">Experience</h1>
           <br></br>
@@ -230,6 +246,7 @@ const Experience = () => (
           </div>
           <br></br>
         </div>
+        </Plx>
       </div>
     </Plx>
   </section>

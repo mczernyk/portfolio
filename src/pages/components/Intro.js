@@ -21,6 +21,21 @@ const parallaxData = [
   },
 ]
 
+const parallaxText = [
+  {
+    start: "self",
+    duration: "800vh",
+    properties: [
+      {
+        startValue: 0,
+        endValue: 20,
+        unit: "vh",
+        property: "translateY",
+      }
+    ],
+  },
+]
+
 const parallaxIntro = [
   {
     start: "self",
@@ -46,6 +61,7 @@ const Intro = () => (
   <Plx parallaxData={parallaxData}>
     <div className="section-container-intro">
       <section id="about">
+      <Plx parallaxData={parallaxText}>
         <div className="intro-container">
           <div className="avi">
             <div className="avatar-main">
@@ -112,6 +128,7 @@ const Intro = () => (
             </p>
           </div>
         </div>
+        </Plx>
       </section>
     </div>
   </Plx>

@@ -17,10 +17,26 @@ const parallaxData = [
   },
 ]
 
+const parallaxText = [
+  {
+    start: "self",
+    duration: "800vh",
+    properties: [
+      {
+        startValue: 0,
+        endValue: 20,
+        unit: "vh",
+        property: "translateY",
+      }
+    ],
+  },
+]
+
 const Music = () => (
   <section id="music">
     <Plx parallaxData={parallaxData}>
       <div className="section-container-music">
+      <Plx parallaxData={parallaxText}>
         <h1 className="section-title-coral">Music</h1>
         <br></br>
         <div className="music-intro">
@@ -65,6 +81,7 @@ const Music = () => (
             </div>
           </div>
         </div>
+        </Plx>
       </div>
     </Plx>
   </section>
