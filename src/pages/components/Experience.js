@@ -47,6 +47,39 @@ const Experience = () => (
 
           <div className="resume-item">
             <div className="resume-content">
+              <div className="title-heading-exp">Product & Business Strategy Lead</div>
+              <div className="subheading">Batchbud</div>
+              <ul>
+                <li>
+                  Leading Product & Business Strategy at <a href="https://batchbud.com">
+                  BatchBud
+                  </a>, a modern resource planning hub tailored to infused product manufacturers. Onboarding & managing new accounts.
+                </li>
+                <li>
+                  Supporting CTO and contributing to product development as a Software Engineer.
+                </li>
+              </ul>
+            </div>
+            <div className="resume-date">
+              <div className="date-heading">August 2020 - Present</div>
+
+              <div className="social-icons">
+              <a
+                key="https://batchbud.com"
+                href="https://batchbud.com"
+              >
+              <span className="fa-layers fa-fw fa2">
+                <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                <FontAwesomeIcon icon={faLaptop} transform="grow-5" inverse/>
+              </span>
+              </a>
+            </div>
+            </div>
+          </div>
+          <br></br>
+
+          <div className="resume-item">
+            <div className="resume-content">
               <div className="title-heading-exp">Founder</div>
               <div className="subheading">Off-Chain Consulting</div>
               <ul>
