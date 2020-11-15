@@ -12,6 +12,9 @@ import SEO from "../components/SEO"
 
 import "../styles/styles.css"
 
+// test: gatsby develop
+// deploy: normal git push origin master
+
 const IndexPage = () => (
   <div>
   <SEO />

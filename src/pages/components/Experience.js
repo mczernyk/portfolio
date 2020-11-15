@@ -9,7 +9,7 @@ const parallaxData = [
   {
     start: "self",
     duration: "800vh",
-    startOffset: "200vh",
+    startOffset: "100vh",
     properties: [
       {
         startValue: 0,
@@ -47,6 +47,42 @@ const Experience = () => (
 
           <div className="resume-item">
             <div className="resume-content">
+              <div className="title-heading-exp">Co-Founder & CTO</div>
+              <div className="subheading">Shep</div>
+              <ul>
+                <li>
+                  Building <a href="https://shep.social/">
+                  Shep
+                  </a>, a link saving and sharing app.
+                </li>
+                <li>
+                We believe that friends make better recommendations than algorithms.
+                </li>
+                <li>
+                Shep lets you share and discover content with people you know and trust.
+                </li>
+              </ul>
+            </div>
+            <div className="resume-date">
+              <div className="date-heading">July 2020 - Present</div>
+
+              <div className="social-icons">
+              <a
+                key="https://shep.social/"
+                href="https://shep.social/"
+              >
+              <span className="fa-layers fa-fw fa2">
+                <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                <FontAwesomeIcon icon={faLaptop} transform="grow-5" inverse/>
+              </span>
+              </a>
+            </div>
+            </div>
+          </div>
+          <br></br>
+
+          <div className="resume-item">
+            <div className="resume-content">
               <div className="title-heading-exp">Product & Business Strategy Lead</div>
               <div className="subheading">Batchbud</div>
               <ul>
@@ -61,7 +97,7 @@ const Experience = () => (
               </ul>
             </div>
             <div className="resume-date">
-              <div className="date-heading">August 2020 - Present</div>
+              <div className="date-heading">August 2020 - November 2020</div>
 
               <div className="social-icons">
               <a
