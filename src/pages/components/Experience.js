@@ -48,18 +48,18 @@ const Experience = () => (
           <div className="resume-item">
             <div className="resume-content">
               <div className="title-heading-exp">Co-Founder & CTO</div>
-              <div className="subheading">Shep</div>
+              <div className="subheading">LinkLater</div>
               <ul>
                 <li>
-                  Building <a href="https://shep.social/">
-                  Shep
+                  Building <a href="https://linklater.app/">
+                  LinkLater
                   </a>, a link saving and sharing app.
                 </li>
                 <li>
-                We believe that friends make better recommendations than algorithms.
+                We believe friends make better recommendations than algorithms.
                 </li>
                 <li>
-                Shep lets you share and discover content with people you know and trust.
+                LinkLater lets you share and discover content with people you know and trust.
                 </li>
               </ul>
             </div>
@@ -68,8 +68,8 @@ const Experience = () => (
 
               <div className="social-icons">
               <a
-                key="https://shep.social/"
-                href="https://shep.social/"
+                key="https://linklater.app/"
+                href="https://linklater.app/"
               >
               <span className="fa-layers fa-fw fa2">
                 <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
