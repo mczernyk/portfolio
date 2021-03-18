@@ -50,7 +50,7 @@ export default class Sidebar extends Component {
               const { href, content } = tab
 
               return (
-                <li className="nav-item" key={href}>
+                <li className="nav-item" key={href} onClick={this.toggleBar}>
                   <Scroll type="id" element={href}>
                     <a href={`#${href}`} className="nav__link">
                       {content}
