@@ -56,8 +56,8 @@ const Projects = () => (
             <div className="skills-box">
               <div className="title-heading-skills">Proficient</div>
               <li>JavaScript</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
+              <li>HTML</li>
+              <li>CSS</li>
               <li>React</li>
               <li>React- Native</li>
               <li>Redux</li>
@@ -65,9 +65,10 @@ const Projects = () => (
               <li>Express</li>
               <li>Sequelize</li>
               <li>PostgreSQL</li>
+              <li>Firebase</li>
+              <li>Expo</li>
               <li>Git</li>
               <li>Webpack</li>
-              <li>Babel</li>
             </div>
             <div className="skills-box">
               <div className="title-heading-skills">Knowledgeable</div>
@@ -75,7 +76,7 @@ const Projects = () => (
               <li>Vue</li>
               <li>Netlify</li>
               <li>Heroku</li>
-              <li>Expo</li>
+              <li>AWS</li>
               <li>Three.js</li>
               <li>Socket.io</li>
               <li>Websocket</li>

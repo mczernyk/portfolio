@@ -53,14 +53,9 @@ const Experience = () => (
                 <li>
                   Building <a href="https://linklater.app/">
                   LinkLater
-                  </a>, a link saving and sharing app.
+                  </a>, a mobile app that lets you save and share links with people you know and trust.
                 </li>
-                <li>
-                We believe friends make better recommendations than algorithms.
-                </li>
-                <li>
-                LinkLater lets you share and discover content with people you know and trust.
-                </li>
+                <li>Leading full stack development and managing engineering team.</li>
               </ul>
             </div>
             <div className="resume-date">

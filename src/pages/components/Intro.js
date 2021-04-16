@@ -76,6 +76,8 @@ const Intro = () => (
                   </h1>
                 </span>
               </div>
+              </Plx>
+
 
               <div className="skills-info">
                 <span className="skills-color">Full Stack </span> ·{" "}
@@ -113,7 +115,6 @@ const Intro = () => (
                 </a>
               </div>
               <br></br>
-            </Plx>
           </div>
           <div className="intro-text">
             <p>
