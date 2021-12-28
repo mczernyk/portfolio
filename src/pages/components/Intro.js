@@ -118,7 +118,7 @@ const Intro = () => (
           </div>
           <div className="intro-text">
             <p>
-              I'm Mark, a Software Engineer & Cryptocurrency Enthusiast with
+              I'm Mark, a Software Engineer with
               prior professional experience in Sales, Operations, Trading, Consulting & Law.
             </p>
             <p>
