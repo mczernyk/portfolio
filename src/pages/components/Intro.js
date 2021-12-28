@@ -118,8 +118,7 @@ const Intro = () => (
           </div>
           <div className="intro-text">
             <p>
-              I'm Mark, a Software Engineer with
-              prior professional experience in Sales, Operations, Trading, Consulting & Law.
+              I'm Mark, a Software Engineer with prior professional experience in Sales, Operations, Trading, Consulting & Law.
             </p>
             <p>
               I'm passionate about building stylish, intuitive products that
