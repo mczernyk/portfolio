@@ -1002,6 +1002,7 @@ a {
   font-size: large;
   text-transform: lowercase;
   font-family: 'Abril Fatface';
+  cursor: pointer;
 }
 
 .button-design:hover {
@@ -1120,19 +1121,24 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
   background-color: transparent;
-  box-shadow: -10px -10px #04284a
+  box-shadow: -10px -10px #04284a;
+  background-color: white;
 }
 
 .bandcamp-box {
   flex: 2;
   max-width: 700px;
   padding-right: 10px;
+  background-color: white;
+
 }
 
 .bandcamp-player {
   border: 0;
   width: 100%;
   height: 100%;
+  background-color: white;
+
 }
 
 
@@ -1144,7 +1150,7 @@ a {
   text-align: center;
   background-color: white;
   color: lightcoral;
-  box-shadow: -10px -10px #04284a;
+  /* box-shadow: -10px -10px #04284a; */
   flex:1;
   width: 100%;
   max-width: 300px
