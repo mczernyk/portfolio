@@ -36,13 +36,13 @@ const parallaxText = [
   },
 ]
 
-const Experience = () => (
-  <section id="experience">
+const ProjectsNew = () => (
+  <section id="projects">
     <Plx parallaxData={parallaxData}>
-      <div className="section-container-experience">
+      <div className="section-container-projects">
       <Plx parallaxData={parallaxText}>
         <div>
-          <h1 className="section-title-coral">Experience</h1>
+          <h1 className="section-title-white">Projects</h1>
           <br></br>
 
           <div className="resume-item">
@@ -78,28 +78,6 @@ const Experience = () => (
 
           <div className="resume-item">
             <div className="resume-content">
-              <div className="title-heading-exp">Founder</div>
-              <div className="subheading">Off-Chain Consulting</div>
-              <ul>
-                <li>
-                  Assisting teams with Solana & Ethereum NFT project launches from art generation through minting.
-                </li>
-                <li>
-                  Creating generative art collections and corresponding metadata, custom minting sites & specialized Discord / Twitter bots.
-                </li>
-                <li>
-                  Providing guidance re: staking, mining, analyzing & trading Cryptoassets.
-                </li>
-              </ul>
-            </div>
-            <div className="resume-date">
-              <div className="date-heading">January 2018 - Present</div>
-            </div>
-          </div>
-          <br></br>
-
-          <div className="resume-item">
-            <div className="resume-content">
               <div className="title-heading-exp">Product & Business Strategy Lead</div>
               <div className="subheading">Batchbud</div>
               <ul>
@@ -127,6 +105,26 @@ const Experience = () => (
               </span>
               </a>
             </div>
+            </div>
+          </div>
+          <br></br>
+
+          <div className="resume-item">
+            <div className="resume-content">
+              <div className="title-heading-exp">Founder</div>
+              <div className="subheading">Off-Chain Consulting</div>
+              <ul>
+                <li>
+                  Cryptocurrency consulting specializing in trading strategy,
+                  portfolio management & general Blockchain education.
+                </li>
+                <li>
+                  Providing guidance re: trading, analyzing & mining Cryptoassets.
+                </li>
+              </ul>
+            </div>
+            <div className="resume-date">
+              <div className="date-heading">January 2018 - Present</div>
             </div>
           </div>
           <br></br>
@@ -318,4 +316,4 @@ const Experience = () => (
   </section>
 )
 
-export default Experience
+export default ProjectsNew

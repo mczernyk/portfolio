@@ -1,6 +1,8 @@
 import React from "react"
 import Intro from "./components/Intro"
 import Projects from "./components/Projects"
+import ProjectsNew from "./components/ProjectsNew"
+
 import Experience from "./components/Experience"
 import Education from "./components/Education"
 import Design from "./components/Design"

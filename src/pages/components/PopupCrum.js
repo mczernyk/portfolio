@@ -108,6 +108,7 @@ export default class PopupCrum extends Component {
               <br></br>
               <div className="stack-title">stack:</div>
               <div className="modal-stack">
+                <div>Node.js</div>
                 <div>React-Native</div>
                 <div>Redux</div>
                 <div>Expo</div>

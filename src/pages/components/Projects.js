@@ -68,14 +68,20 @@ const Projects = () => (
               <li>Firebase</li>
               <li>Expo</li>
               <li>Git</li>
-              <li>Webpack</li>
+              <li>Metaplex</li>
+              <li>Candy Machine</li>
+              <li>Hashlips</li>
+              <li>Netlify</li>
+              <li>Heroku</li>
+
             </div>
             <div className="skills-box">
               <div className="title-heading-skills">Knowledgeable</div>
+              <li>Solidity</li>
+              <li>Hardhat</li>
               <li>Gatsby.js</li>
               <li>Vue</li>
-              <li>Netlify</li>
-              <li>Heroku</li>
+              <li>Vercel</li>
               <li>AWS</li>
               <li>Three.js</li>
               <li>Socket.io</li>
@@ -83,8 +89,9 @@ const Projects = () => (
               <li>Mocha</li>
               <li>Chai</li>
               <li>jQuery</li>
-              <li>ngrok</li>
-              <li>Twitter Dev Lab</li>
+              <li>Twitter Dev Tools</li>
+              <li>Discord Dev Tools</li>
+              <li>Apple Dev Tools</li>
             </div>
             <div className="skills-box-3">
               <div className="title-heading-skills">Skills</div>

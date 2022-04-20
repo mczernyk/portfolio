@@ -75,9 +75,9 @@ a {
 .section-container-projects {
   background-color: white;
   padding: 5%;
-  border-top: #04284a 2px solid;
+  /* border-top: #04284a 2px solid;
   border-bottom: #04284a 2px solid;
-  border-right: #04284a 2px solid;
+  border-right: #04284a 2px solid; */
   color: #04284a
 }
 
@@ -509,8 +509,11 @@ a {
 
 .modal-image {
   border-radius: 10px;
-  width: 100%
+  max-height: 400px;
+  max-width: 100%;
 }
+
+
 
 .modal-image-crum {
   border-radius: 10px;
@@ -518,6 +521,20 @@ a {
   display: flex;
   flex: 1;
   align-content: center;
+}
+.modal-image-link {
+  border-radius: 10px;
+  max-height: 300px;
+  display: flex;
+  flex: 1;
+  align-content: center;
+}
+
+
+.modal-image-dad{
+  border-radius: 10px;
+  max-height: 200px;
+  max-width: 100%;
 }
 
 .modal-date {
@@ -576,6 +593,7 @@ a {
   font-size: large;
   text-transform: lowercase;
   font-family: 'Abril Fatface';
+  cursor: pointer;
 }
 
 .button-project:hover {
@@ -603,7 +621,8 @@ a {
 .projects-main {
   background-color: #04284a;
   box-shadow: -10px 10px lightcoral;
-  padding: 5px;
+  padding: 10px;
+
 }
 
 .projects-buffer {
@@ -613,6 +632,7 @@ a {
   justify-content: center;
   flex-wrap: wrap;
   padding: 15px;
+  min-height: 100vh;
 }
 
 .crum-section {
@@ -642,10 +662,10 @@ a {
 }
 
 .project-tile {
-  min-width: 200px;
+  min-width: 100%;
   height: 50%;
   padding-top: 10px;
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 
 .project-image{
@@ -660,9 +680,52 @@ a {
   object-fit: cover;
   border-radius: 10px;
   height: 100%;
-  max-height: 400px;
-  min-height: 150px
+  height: 250px;
+  background-color: purple;
 }
+
+.image-link {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+  border-radius: 10px;
+  height: 100%;
+  height: 250px;
+  background-color: purple;
+}
+
+.image-mex {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 0;
+  border-radius: 10px;
+  height: 100%;
+  height: 250px;
+  background-color: purple;
+}
+
+.image-crum {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  height: 250px;
+  background-color: purple;
+}
+
+.image-d {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  height: 100%;
+  cursor: pointer
+
+}
+
+
 
 .project-title {
   position: absolute;
@@ -671,12 +734,13 @@ a {
   left: 0;
   right: 0;
   height: 100%;
-  max-height: 400px;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
   background-color: rgb(255, 41, 76);
   border-radius: 10px;
+  cursor: pointer;
+
 }
 
 .project-image:hover .project-title {

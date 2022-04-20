@@ -74,7 +74,7 @@ export default class DesignBoxes extends Component {
                 this.toggleGraphic(e)
               }}
             >
-              <img src={dad} className="image" alt="Rad Dads Logo" />
+              <img src={dad} className="image-d" alt="Rad Dads Logo" />
             </div>
           </div>
           <div className="design-box">
@@ -86,7 +86,7 @@ export default class DesignBoxes extends Component {
                 this.toggleDigital(e)
               }}
             >
-              <img src={glitch01} className="image" alt="Glitch Art" />
+              <img src={glitch01} className="image-d" alt="Glitch Art" />
             </div>
           </div>
           <div className="design-box">
@@ -98,7 +98,7 @@ export default class DesignBoxes extends Component {
                 this.toggleArt(e)
               }}
             >
-              <img src={snow} className="image" alt="Snow" />
+              <img src={snow} className="image-d" alt="Snow" />
             </div>
           </div>
         </div>
