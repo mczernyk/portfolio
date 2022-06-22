@@ -40,8 +40,8 @@ const Info = () => (
             outdoor projects.
           </p>
           <p>
-            I'd love to chat. Don't hesitate to shoot me an email or connect on
-            LinkedIn.
+            I'd love to chat. Don't hesitate to <a key="email" href={`mailto:mczernyk@gmail.com`}>shoot me an email</a> or <a href="https://www.linkedin.com/in/czernyk/">connect on
+            LinkedIn</a>.
           </p>
         </div>
       </section>

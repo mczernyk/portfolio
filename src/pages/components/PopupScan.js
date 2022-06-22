@@ -39,7 +39,7 @@ export default class PopupScan extends Component {
               <li>
                 Uses Firebase for backend & device-based authentication.
               </li>
-              <div>App delivers push notifications to users when they receive a new link, like, or addition to a group collection.</div>
+              <li>Delivers push notifications to users when they receive a new link, like or addition to a group collection.</li>
               <li>Depolyed landing page with Gatsby.js & Netlify.</li>
               <li>Formatted landing page for desktop & mobile.</li>
               <li>Recorded a <a href="https://www.youtube.com/watch?v=wxNPL6MRW_k/">Demo Video</a> to demonstrate app functionality.</li>
