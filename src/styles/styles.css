@@ -762,6 +762,7 @@ a {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
 }
 
 .project-name {
@@ -815,6 +816,13 @@ a {
   text-decoration: underline;
   text-decoration-color: lightcoral;
   padding-bottom: 10px;
+}
+
+/* For Mobile */
+@media (max-width: 500px) {
+  .skills-box-3 {
+    margin-bottom:60px;
+  }
 }
 
 /* Experience / Education */
@@ -888,8 +896,9 @@ a {
 .resume-date {
   display: flex;
   flex-direction: column;
-  flex: 1;
-  max-width: 220px;}
+  flex: 1.2;
+  max-width: 300px;
+}
 
 .date-heading {
   margin-top: 14px;

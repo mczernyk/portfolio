@@ -8,7 +8,7 @@ import { faInstagram, faFacebookF, faTwitter } from '@fortawesome/free-brands-sv
 const parallaxData = [
   {
     start: "self",
-    duration: "800vh",
+    duration: "1200vh",
     startOffset: "100vh",
     properties: [
       {
