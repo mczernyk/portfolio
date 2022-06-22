@@ -889,8 +889,7 @@ a {
   display: flex;
   flex-direction: column;
   flex: 1;
-  max-width: 220px
-}
+  max-width: 220px;}
 
 .date-heading {
   margin-top: 14px;
