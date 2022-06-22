@@ -26,7 +26,7 @@ const Info = () => (
           <p>
             When I'm not programming, I spend most of my time coming up with dad
             jokes for the <span className="subheading">Rad Dads Official</span>{" "}
-            Instagram account, watching crypto charts & scouring eBay &
+            <a href="https://instagram.com/raddadsofficial">Instagram account</a>, watching crypto charts & scouring eBay &
             Craigslist for good deals. I'm a collector & reseller of many
             things -- most notably NFTs, vinyl, sneakers, clothing, vintage audio
             equipment & instruments.

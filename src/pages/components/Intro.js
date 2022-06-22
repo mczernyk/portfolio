@@ -60,7 +60,9 @@ const parallaxIntro = [
 const Intro = () => (
   <Plx parallaxData={parallaxData}>
     <div className="section-container-intro">
-      <section id="about">        <div className="intro-container">
+    <Plx parallaxData={parallaxText}>
+      <section id="about">
+        <div className="intro-container">
           <div className="avi">
             <div className="avatar-main">
               <img src={avatar} alt="" />
@@ -124,6 +126,7 @@ const Intro = () => (
           </div>
         </div>
       </section>
+      </Plx>
     </div>
   </Plx>
 )
