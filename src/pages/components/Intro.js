@@ -60,14 +60,11 @@ const parallaxIntro = [
 const Intro = () => (
   <Plx parallaxData={parallaxData}>
     <div className="section-container-intro">
-      <section id="about">
-      <Plx parallaxData={parallaxText}>
-        <div className="intro-container">
+      <section id="about">        <div className="intro-container">
           <div className="avi">
             <div className="avatar-main">
               <img src={avatar} alt="" />
             </div>
-            <Plx parallaxData={parallaxIntro}>
               <div>
                 <span className="intro-name">
                   <h1>
@@ -76,13 +73,12 @@ const Intro = () => (
                   </h1>
                 </span>
               </div>
-              </Plx>
 
 
               <div className="skills-info">
                 <span className="skills-color">Full Stack </span> ·{" "}
                 <span className="skills-color"> Front End</span> ·{" "}
-                <span className="skills-color"> UX / UI</span>
+                <span className="skills-color"> web3</span>
               </div>
               <br></br>
               <div className="contact-info">Brooklyn, NY</div>
@@ -118,16 +114,15 @@ const Intro = () => (
           </div>
           <div className="intro-text">
             <p>
-              I'm Mark, a Software Engineer with prior professional experience in Sales, Operations, Trading, Consulting & Law.
+              I'm Mark, a Software Engineer with prior professional experience in Operations, Sales, Trading, Consulting & Law.
             </p>
             <p>
-              I'm passionate about building stylish, intuitive products that
+              I'm passionate about building intuitive products that
               solve problems & provide a pleasant user experience -- scroll down
               to learn more about me.
             </p>
           </div>
         </div>
-        </Plx>
       </section>
     </div>
   </Plx>

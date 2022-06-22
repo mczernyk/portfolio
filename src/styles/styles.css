@@ -1,15 +1,20 @@
 body {
   color: white;
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Quicksand';
+
   background-color: #04284a
 }
 
 h1 {
   text-transform: lowercase;
-  font-style: italic;
-  letter-spacing: 5px;
-  font-family: 'Quicksand';
+  /* font-style: italic;
+  letter-spacing: 5px; */
+  /* font-family: 'Quicksand'; */
+  font-family: 'Abril Fatface';
   font-size: xx-large;
+  font-weight: bold;
+
 }
 
 a {
@@ -97,10 +102,10 @@ a {
 .section-container-design {
   background-color: white;
   padding: 5%;
-  border-top: #04284a 2px solid;
+  /* border-top: #04284a 2px solid;
   border-bottom: #04284a 2px solid;
-  border-right: #04284a 2px solid;
-  color: #04284a
+  border-right: #04284a 2px solid; */
+ color: #04284a
 }
 
 .section-container-music {
@@ -1121,7 +1126,7 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
   background-color: transparent;
-  box-shadow: -10px -10px #04284a;
+  box-shadow: -10px 10px #04284a;
   background-color: white;
 }
 

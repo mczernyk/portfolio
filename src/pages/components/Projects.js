@@ -59,7 +59,7 @@ const Projects = () => (
               <li>HTML</li>
               <li>CSS</li>
               <li>React</li>
-              <li>React- Native</li>
+              <li>React - Native</li>
               <li>Redux</li>
               <li>Node.js</li>
               <li>Express</li>
@@ -67,7 +67,6 @@ const Projects = () => (
               <li>PostgreSQL</li>
               <li>Firebase</li>
               <li>Expo</li>
-              <li>Git</li>
               <li>Metaplex</li>
               <li>Candy Machine</li>
               <li>Hashlips</li>
