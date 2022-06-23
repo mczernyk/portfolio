@@ -28,7 +28,7 @@ const Info = () => (
             jokes for the <span className="subheading">Rad Dads Official</span>{" "}
             <a href="https://instagram.com/raddadsofficial">Instagram account</a>, watching crypto charts & scouring eBay &
             Craigslist for good deals. I'm a collector & reseller of many
-            things -- most notably NFTs, vinyl, sneakers, clothing, vintage audio
+            things -- most notably NFTs, vinyl, sneakers, clothing, furniture, vintage audio
             equipment & instruments.
           </p>
           <p>
