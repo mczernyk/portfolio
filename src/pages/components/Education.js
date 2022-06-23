@@ -48,8 +48,8 @@ const Education = () => (
               <br></br>
               <div>
                 Immersive software engineering bootcamp focused on JavaScript
-                & the NERD stack - Node.js, Express, React, Redux, Sequelize,
-                PostgreSQL
+                & the NERD stack - Node.js, Express, React / Redux & (Relational) Databases (Sequelize,
+                PostgreSQL)
               </div>
               <br></br>
             </div>
