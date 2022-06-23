@@ -1166,7 +1166,8 @@ a {
   /* box-shadow: -10px -10px #04284a; */
   flex:1;
   width: 100%;
-  max-width: 300px
+  max-width: 300px;
+  padding: 5px
 }
 .gear-list {
   display: flex;
@@ -1195,7 +1196,7 @@ a {
 
   }
   .bandcamp-box {
-    min-width: 100%;
+    /* min-width: 100%; */
     padding-right: 0px;
   }
   .bandcamp-player {
@@ -1203,7 +1204,8 @@ a {
     min-height: 400px
   }
   .gear {
-    min-width: 100%;
+    /* min-width: 100%; */
+
   }
 }
 
