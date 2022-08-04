@@ -6,10 +6,12 @@ import dadHead from "../../images/dadhead.png"
 import mtcLogo from "../../images/mtclogoRevised.png"
 import crumLogo from "../../images/crumLogoAndText.png"
 import mtcChina from "../../images/chinacardRevised.png"
+import nobodyCircle from "../../images/nbCircleLogoInverse.png"
 import "../../styles/flickity.css"
 
 function CarouselDesign() {
   let designs = [
+    { art: nobodyCircle, alt: "Nobody Logo" },
     { art: dad2, alt: "Rad Dads Modern Logo" },
     { art: dadHead, alt: "Rad Dads Classic Logo" },
     { art: libertyDad, alt: "Rad Dads Liberty Logo" },
