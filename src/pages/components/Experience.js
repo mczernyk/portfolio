@@ -47,6 +47,34 @@ const Experience = () => (
 
           <div className="resume-item">
             <div className="resume-content">
+              <div className="title-heading-exp">Founder & CTO</div>
+              <div className="subheading">nobody</div>
+              <ul>
+              <li>nobody offers custom 1/1 products from a curated list of NFT collections. Customers can connect their wallets & print their CC0 assets on limited edition pieces.</li>
+
+              <li>Leading full stack development and product design.</li>
+              </ul>
+            </div>
+            <div className="resume-date">
+              <div className="date-heading">July 2022 - Present</div>
+
+              <div className="social-icons">
+              <a
+                key="https://twitter.com/nobody_clothing"
+                href="https://twitter.com/nobody_clothing"
+              >
+              <span className="fa-layers fa-fw fa2">
+                <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                <FontAwesomeIcon icon={faTwitter} transform="grow-5" inverse/>
+              </span>
+              </a>
+            </div>
+            </div>
+          </div>
+          <br></br>
+
+          <div className="resume-item">
+            <div className="resume-content">
               <div className="title-heading-exp">Co-Founder & CTO</div>
               <div className="subheading">LinkLater</div>
               <ul>
@@ -59,7 +87,7 @@ const Experience = () => (
               </ul>
             </div>
             <div className="resume-date">
-              <div className="date-heading">July 2020 - Present</div>
+              <div className="date-heading">July 2020 - November 2021</div>
 
               <div className="social-icons">
               <a
