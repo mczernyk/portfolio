@@ -67,7 +67,7 @@ export default class PopupFriend extends Component {
                   <FontAwesomeIcon icon={faGithub} transform="grow-5" inverse/>
                 </span>
                 </a>
-                <a
+                {/*<a
                   key="https://unknowngraceshopper.herokuapp.com/"
                   href="https://unknowngraceshopper.herokuapp.com/"
                 >
@@ -75,7 +75,7 @@ export default class PopupFriend extends Component {
                   <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
                   <FontAwesomeIcon icon={faLaptop} transform="grow-5" inverse/>
                 </span>
-                </a>
+    </a>*/}
               </div>
               <br></br>
               <div className="stack-title">stack:</div>

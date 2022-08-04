@@ -54,7 +54,7 @@ export default class PopupMex extends Component {
                 </span>
                 </a>
 
-                <a
+                {/*<a
                   key="https://stackathon-mc.herokuapp.com/"
                   href="https://stackathon-mc.herokuapp.com/"
                 >
@@ -62,7 +62,7 @@ export default class PopupMex extends Component {
                   <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
                   <FontAwesomeIcon icon={faLaptop} transform="grow-5" inverse/>
                 </span>
-                </a>
+                </a>*/}
               </div>
               <br></br>
               <div className="stack-title">stack:</div>
