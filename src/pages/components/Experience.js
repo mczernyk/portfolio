@@ -50,7 +50,7 @@ const Experience = () => (
               <div className="title-heading-exp">Founder & CTO</div>
               <div className="subheading">nobody</div>
               <ul>
-              <li>nobody offers custom 1/1 products from a curated list of NFT collections. Customers can connect their wallets & print their CC0 assets on limited edition pieces.</li>
+              <li>Nobody offers custom 1/1 products from a curated list of NFT collections. Customers can connect their wallets & print their CC0 assets on limited edition pieces.</li>
 
               <li>Leading full stack development and product design.</li>
               </ul>
