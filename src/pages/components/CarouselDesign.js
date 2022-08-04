@@ -7,11 +7,16 @@ import mtcLogo from "../../images/mtclogoRevised.png"
 import crumLogo from "../../images/crumLogoAndText.png"
 import mtcChina from "../../images/chinacardRevised.png"
 import nobodyCircle from "../../images/nbCircleLogoInverse.png"
+import nobodyMilady from "../../images/nbLogoMilady.png"
+import nobodyAllstarz from "../../images/nbLogoAllstarz.png"
+
 import "../../styles/flickity.css"
 
 function CarouselDesign() {
   let designs = [
     { art: nobodyCircle, alt: "Nobody Logo" },
+    { art: nobodyAllstarz, alt: "Nobody Allstarz Logo" },
+    { art: nobodyMilady, alt: "Nobody Milady Logo" },
     { art: dad2, alt: "Rad Dads Modern Logo" },
     { art: dadHead, alt: "Rad Dads Classic Logo" },
     { art: libertyDad, alt: "Rad Dads Liberty Logo" },

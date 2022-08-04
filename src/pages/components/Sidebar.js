@@ -49,6 +49,7 @@ export default class Sidebar extends Component {
             })}
           </Scrollspy>
         </nav>
+
         <div className="social-buttons">
           <div className="social-icons-nav">
             <a
