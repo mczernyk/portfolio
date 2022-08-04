@@ -88,6 +88,9 @@ const Experience = () => (
                   Creating generative art collections and corresponding metadata, custom minting sites & specialized Discord / Twitter bots.
                 </li>
                 <li>
+                  Building websites with web3 wallet integrations for displaying asset data & providing gated experiences for token holders.
+                </li>
+                <li>
                   Providing guidance re: staking, mining, analyzing & trading Cryptoassets.
                 </li>
               </ul>
