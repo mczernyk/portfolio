@@ -67,6 +67,8 @@ const Projects = () => (
               <li>PostgreSQL</li>
               <li>Firebase</li>
               <li>Expo</li>
+              <li>Metamask</li>
+              <li>Rarible/OpenSea API</li>
               <li>Metaplex</li>
               <li>Candy Machine</li>
               <li>Hashlips</li>
@@ -100,6 +102,7 @@ const Projects = () => (
               <li>Oral & written communication</li>
               <li>Social content creation, curation & community management</li>
               <li>E-Commerce/webstore administration & promotion</li>
+              <li>Product & graphic design</li>
               <li>Technical & fundamental analysis</li>
               <li>MS Office & Google Suite</li>
               <li>Photoshop & GIMP</li>
