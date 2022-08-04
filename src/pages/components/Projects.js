@@ -60,6 +60,7 @@ const Projects = () => (
               <li>CSS</li>
               <li>React</li>
               <li>React - Native</li>
+              <li>Next.js</li>
               <li>Redux</li>
               <li>Node.js</li>
               <li>Express</li>
