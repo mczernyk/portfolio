@@ -69,7 +69,7 @@ const Projects = () => (
               <li>Firebase</li>
               <li>Expo</li>
               <li>Metamask</li>
-              <li>Rarible/OpenSea API</li>
+              <li>Rarible API</li>
               <li>Metaplex</li>
               <li>Candy Machine</li>
               <li>Hashlips</li>
