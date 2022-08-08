@@ -6,9 +6,9 @@ import dadHead from "../../images/dadhead.png"
 import mtcLogo from "../../images/mtclogoRevised.png"
 import crumLogo from "../../images/crumLogoAndText.png"
 import mtcChina from "../../images/chinacardRevised.png"
-import nobodyCircle from "../../images/nbCircleLogoInverse.png"
-import nobodyMilady from "../../images/nbLogoMilady.png"
-import nobodyAllstarz from "../../images/nbLogoAllstarz.png"
+import nobodyCircle from "../../images/nbCircleLogoBlackTransSmall.png"
+import nobodyMilady from "../../images/nblogoMiladySmall.png"
+import nobodyAllstarz from "../../images/nblogoAllstarzSmall.png"
 
 import "../../styles/flickity.css"
 
