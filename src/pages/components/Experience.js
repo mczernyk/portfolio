@@ -110,13 +110,13 @@ const Experience = () => (
               <div className="subheading">Off-Chain Consulting</div>
               <ul>
                 <li>
+                  Building websites with web3 wallet integrations for displaying asset data & providing gated experiences for token holders.
+                </li>
+                <li>
                   Assisting teams with Solana & Ethereum NFT project launches from art generation through minting.
                 </li>
                 <li>
                   Creating generative art collections and corresponding metadata, custom minting sites & specialized Discord / Twitter bots.
-                </li>
-                <li>
-                  Building websites with web3 wallet integrations for displaying asset data & providing gated experiences for token holders.
                 </li>
                 <li>
                   Providing guidance re: staking, mining, analyzing & trading Cryptoassets.
