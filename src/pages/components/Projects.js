@@ -79,6 +79,7 @@ const Projects = () => (
             </div>
             <div className="skills-box">
               <div className="title-heading-skills">Knowledgeable</div>
+              <li>Ether.js</li>
               <li>Solidity</li>
               <li>Hardhat</li>
               <li>Gatsby.js</li>
