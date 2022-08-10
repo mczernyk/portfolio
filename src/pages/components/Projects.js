@@ -66,7 +66,6 @@ const Projects = () => (
               <li>Express</li>
               <li>Sequelize</li>
               <li>PostgreSQL</li>
-              <li>Firebase</li>
               <li>Expo</li>
               <li>Metamask</li>
               <li>Rarible API </li>
@@ -75,6 +74,7 @@ const Projects = () => (
               <li>Hashlips</li>
               <li>Netlify</li>
               <li>Heroku</li>
+              <li>Vercel</li>
 
             </div>
             <div className="skills-box">
@@ -82,9 +82,9 @@ const Projects = () => (
               <li>Ether.js</li>
               <li>Solidity</li>
               <li>Hardhat</li>
+              <li>Firebase</li>
               <li>Gatsby.js</li>
               <li>Vue</li>
-              <li>Vercel</li>
               <li>AWS</li>
               <li>Three.js</li>
               <li>Socket.io</li>
