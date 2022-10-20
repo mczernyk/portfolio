@@ -50,24 +50,46 @@ const Experience = () => (
               <div className="title-heading-exp">Founder & CTO</div>
               <div className="subheading">nobody</div>
               <ul>
-              <li>Nobody offers custom 1/1 pieces from a curated list of NFT collections. Customers can connect their wallets & print their assets onto limited edition apparel through our webstore.</li>
-
+              <li>Building Nobody, an ecommerce platform that allows customers to create 1/1 products from a curated group of NFT collections using assets in their web3 wallet.</li>
               <li>Leading full stack development and product design.</li>
+              <li>Building automated Twitter bot that posts a product link & corresponding image to the <a href="http://www.twitter.com/nobody_clothing">Nobody Clothing Twitter feed</a> at regular intervals.</li>
+              <li>Managing social accounts.</li>
+
               </ul>
             </div>
             <div className="resume-date">
               <div className="date-heading">July 2022 - Present</div>
 
               <div className="social-icons">
+
               <a
-                key="https://twitter.com/nobody_clothing"
-                href="https://twitter.com/nobody_clothing"
-              >
-              <span className="fa-layers fa-fw fa2">
-                <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
-                <FontAwesomeIcon icon={faTwitter} transform="grow-5" inverse/>
-              </span>
-              </a>
+                  key="https://www.instagram.com/nobodyclothingnyc"
+                  href="https://www.instagram.com/nobodyclothingnyc"
+                >
+                <span className="fa-layers fa-fw fa2">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                  <FontAwesomeIcon icon={faInstagram} transform="grow-5" inverse/>
+                </span>
+                </a>
+
+                <a
+                  key="https://www.twitter.com/nobody_clothing/"
+                  href="https://www.twitter.com/nobody_clothing/"
+                >
+                <span className="fa-layers fa-fw fa2">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                  <FontAwesomeIcon icon={faTwitter} transform="grow-5" inverse/>
+                </span>
+                </a>
+                <a
+                  key="https://nobody.clothing/"
+                  href="https://nobody.clothing/"
+                >
+                <span className="fa-layers fa-fw fa2">
+                  <FontAwesomeIcon icon={faCircle} transform="grow-20"/>
+                  <FontAwesomeIcon icon={faLaptop} transform="grow-5" inverse/>
+                </span>
+                </a>
             </div>
             </div>
           </div>

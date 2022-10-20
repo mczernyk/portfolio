@@ -8,8 +8,7 @@ import PopupDads from "./PopupDads"
 import PopupMonke from "./PopupMonke"
 import PopupScan from "./PopupScan"
 import PopupLink from "./PopupLink"
-
-
+import PopupNobody from "./PopupNobody"
 
 import crum from "../../images/crum1.gif"
 import mextrixdemo from "../../images/mextrixdemo.gif"
@@ -17,6 +16,7 @@ import friendshopdemo from "../../images/friendshop.gif"
 import gameoflife from "../../images/gameoflife.gif"
 import coffeeClicker from "../../images/coffeeclicker.gif"
 import dadsGif from "../../images/testNew.gif";
+import nbSS from "../../images/nbSS.png";
 import dapMonkey from "../../images/dapMonkey.png"
 import scanSaver from "../../images/scanSaver.png"
 import ll01 from "../../images/ll01.jpg";
@@ -38,6 +38,7 @@ export default class ProjectsBoxes extends Component {
       seenMonke: false,
       seenScan: false,
       seenLink: false,
+      seenNobody: false,
 
     }
     this.toggleCrum = this.toggleCrum.bind(this)
@@ -49,6 +50,7 @@ export default class ProjectsBoxes extends Component {
     this.toggleMonke = this.toggleMonke.bind(this)
     this.toggleScan = this.toggleScan.bind(this)
     this.toggleLink = this.toggleLink.bind(this)
+    this.toggleNobody = this.toggleNobody.bind(this)
 
 
 
@@ -108,6 +110,12 @@ export default class ProjectsBoxes extends Component {
     })
   }
 
+  toggleNobody = e => {
+    this.setState({
+      seenNobody: !this.state.seenNobody,
+    })
+  }
+
   onClose = e => {
     this.props.seenCrum = false
     this.props.seenMex = false
@@ -118,6 +126,7 @@ export default class ProjectsBoxes extends Component {
     this.props.seenMonke = false
     this.props.seenScan = false
     this.props.seenLink = false
+    this.props.seenNobody = false
 
   }
 
@@ -179,10 +188,37 @@ export default class ProjectsBoxes extends Component {
             seenLink={this.state.seenLink}
           />
         </div>
+      ) : this.state.seenNobody ? (
+        <div className="projects-main">
+          <PopupNobody
+            onClose={this.toggleNobody}
+            seenNobody={this.state.seenNobody}
+          />
+        </div>
       ) : (
         <div className="projects-main">
           <div className="projects-buffer">
             <div className="project-section">
+
+              <div
+                className="project-tile"
+                onClick={e => {
+                  this.toggleNobody(e)
+                }}
+              >
+                <div className="project-image">
+                  <img src={nbSS} className="image" alt="Nobody Clothing" />
+
+                  <div className="project-title">
+                    <div className="project-category">
+                      <span className="project-name">Nobody Clothing</span>
+                      <br></br>
+                      <span className="project-date">July 2022 -<br></br>Present</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div
                 className="project-tile"
                 onClick={e => {
@@ -225,8 +261,11 @@ export default class ProjectsBoxes extends Component {
                   </div>
                 </div>
               </div>
+        </div>
 
-              <div
+            <div className="project-section">
+
+            <div
                 className="project-tile"
                 onClick={e => {
                   this.toggleScan(e)
@@ -249,9 +288,6 @@ export default class ProjectsBoxes extends Component {
                   </div>
                 </div>
               </div>
-        </div>
-
-            <div className="project-section">
 
             <div
               className="project-tile"
@@ -276,6 +312,7 @@ export default class ProjectsBoxes extends Component {
                 </div>
               </div>
             </div>
+
               <div
                 className="project-tile"
                 onClick={e => {
@@ -295,7 +332,7 @@ export default class ProjectsBoxes extends Component {
                 </div>
               </div>
 
-              <div
+              {/*<div
                 className="project-tile"
                 onClick={e => {
                   this.toggleFriend(e)
@@ -316,7 +353,8 @@ export default class ProjectsBoxes extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div>*/}
+
             </div>
 
             <div className="project-section">
