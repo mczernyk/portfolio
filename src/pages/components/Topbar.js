@@ -38,7 +38,7 @@ export default class Sidebar extends Component {
     const { tabs } = this.state
 
     return !this.state.hiddenBar ? (
-      <div className="nav">
+      <div className="nav-topbar">
         <nav className="nav-buttons">
           <Scrollspy
             items={tabs.map(s => s.href)}

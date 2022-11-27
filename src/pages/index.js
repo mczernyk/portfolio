@@ -19,7 +19,7 @@ import "../styles/styles.css"
 
 const IndexPage = () => (
   <div>
-  <SEO />
+  <SEO title="Mark Czernyk Portfolio"/>
     <div className="main-container">
 
       <div className="content-container">

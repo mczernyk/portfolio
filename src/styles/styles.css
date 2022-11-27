@@ -367,10 +367,22 @@ a {
   .topbar-container {
     max-width: 100%;
   }
-  .nav {
+  .nav-topbar {
+    display: flex;
     flex-direction: column;
     width: 96vw;
     border-radius: 10px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: space-evenly;
+    min-height: 95vh;
+    max-height: 100vh;
+    background-color: rgb(255, 41, 76);
+    position: sticky;
+    top: 0;
+    color: white;
+    overflow: auto;
+    white-space: nowrap;
   }
   .nav-inner {
     flex-direction: row;
