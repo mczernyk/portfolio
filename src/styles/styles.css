@@ -368,7 +368,7 @@ a {
     max-width: 100%;
   }
   .nav {
-    flex-direction: row;
+    flex-direction: column;
     width: 96vw;
     border-radius: 10px;
   }
