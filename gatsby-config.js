@@ -5,6 +5,7 @@
  */
 
 
+
 module.exports = {
   siteMetadata: {
     title: `Mark Czernyk Portfolio`,
