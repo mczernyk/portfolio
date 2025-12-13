@@ -200,24 +200,7 @@ export default class ProjectsBoxes extends Component {
           <div className="projects-buffer">
             <div className="project-section">
 
-              <div
-                className="project-tile"
-                onClick={e => {
-                  this.toggleNobody(e)
-                }}
-              >
-                <div className="project-image">
-                  <img src={nbSS} className="image" alt="Nobody Clothing" />
 
-                  <div className="project-title">
-                    <div className="project-category">
-                      <span className="project-name">Nobody Clothing</span>
-                      <br></br>
-                      <span className="project-date">July 2022 -<br></br>Present</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
               <div
                 className="project-tile"
